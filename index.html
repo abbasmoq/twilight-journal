@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Twilight Journal</title>
+
+  <style>
+    :root {
+      --gold: #e8c66a;
+      --green: #65d6a0;
+      --text: #f2eee3;
+      --muted: #aaa79e;
+      --panel: rgba(14, 18, 25, .76);
+      --border: rgba(232, 198, 106, .22);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      width: 100%;
+      max-width: 100%;
+      min-height: 100vh;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 50% -10%, #34475a 0, transparent 38%),
+        radial-gradient(circle at 90% 35%, #243d34 0, transparent 32%),
+        linear-gradient(160deg, #11151d, #07090e 65%);
+      font-family: Tahoma, Arial, sans-serif;
+      overflow-x: hidden;
+    }
+
+    body.light {
+      --text: #232820;
+      --muted: #5f665d;
+      --panel: rgba(235, 238, 220, .8);
+      --border: rgba(85, 100, 60, .25);
+      background:
+        radial-gradient(circle at 50% 0, #fff4ba 0, transparent 40%),
+        linear-gradient(160deg, #cbd7b5, #77998a);
+    }
+
+    #particles {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: -1;
+    }
+
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--gold);
+      box-shadow: 0 0 12px var(--gold);
+      animation: rise linear infinite;
+      opacity: 0;
+    }
+
+    @keyframes rise {
+      0% {
+        transform: translateY(105vh) scale(.4);
+        opacity: 0;
+      }
+      20% { opacity: .8; }
+      100% {
+        transform: translateY(-15vh) translateX(40px) scale(1.4);
+        opacity: 0;
+      }
+    }
+
+    .hero {
+      min-height: 76vh;
+      padding: 24px 20px 50px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      position: relative;
+    }
+
+    .theme-button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 46px;
+      height: 46px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      background: var(--panel);
+      color: var(--gold);
+      font-size: 20px;
+      cursor: pointer;
+      backdrop-filter: blur(12px);
+    }
+
+    .symbol {
+      width: 150px;
+      filter: drop-shadow(0 0 20px rgba(232,198,106,.45));
+      animation: floating 4s ease-in-out infinite;
+    }
+
+    @keyframes floating {
+      50% { transform: translateY(-12px) rotate(2deg); }
+    }
+
+    .eyebrow {
+      color: var(--green);
+      letter-spacing: 4px;
+      font-size: 12px;
+      margin-top: 22px;
+    }
+
+    h1 {
+      margin: 10px 0 6px;
+      font-family: Georgia, serif;
+      font-size: clamp(42px, 12vw, 82px);
+      font-weight: normal;
+      letter-spacing: -2px;
+      text-shadow: 0 3px 30px rgba(0,0,0,.7);
+    }
+
+    .subtitle {
+      max-width: 560px;
+      color: var(--muted);
+      line-height: 2;
+      margin: auto;
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 20px;
+      color: var(--muted);
+      font-size: 12px;
+      animation: bounce 1.8s infinite;
+    }
+
+    @keyframes bounce {
+      50% { transform: translateY(8px); }
+    }
+
+    .container {
+      width: calc(100% - 28px);
+      max-width: 950px;
+      margin-inline: auto;
+      padding-bottom: 60px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      width: 100%;
+      min-width: 0;
+    }
+
+    .card {
+      width: 100%;
+      min-width: 0;
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--panel);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 20px 60px rgba(0,0,0,.22);
+      transition: transform .3s, border-color .3s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--gold);
+    }
+
+    .wide {
+      grid-column: 1 / -1;
+    }
+
+    .card-title {
+      margin: 0 0 18px;
+      color: var(--gold);
+      font-family: Georgia, serif;
+      font-size: 22px;
+    }
+
+    .progress-number {
+      font-size: 48px;
+      font-family: Georgia, serif;
+      color: var(--gold);
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--gold);
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .check-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .check-item:last-child {
+      border-bottom: 0;
+    }
+
+    .check-item input {
+      width: 20px;
+      height: 20px;
+      accent-color: var(--green);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 150px;
+      padding: 16px;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: 15px;
+      outline: none;
+      color: var(--text);
+      background: rgba(0,0,0,.18);
+      font: inherit;
+      line-height: 1.8;
+    }
+
+    textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(232,198,106,.1);
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--gold);
+      font: 32px Georgia, serif;
+    }
+
+    .action {
+      width: 100%;
+      margin-top: 16px;
+      padding: 13px;
+      border: 0;
+      border-radius: 14px;
+      color: #17140b;
+      background: linear-gradient(135deg, #f4d980, #b99338);
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform .2s;
+    }
+
+    .action:active {
+      transform: scale(.97);
+    }
+
+    .quote {
+      text-align: center;
+      line-height: 2;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      color: var(--muted);
+    }
+
+    .saved {
+      color: var(--green);
+      opacity: 0;
+      transition: opacity .3s;
+      font-size: 12px;
+    }
+
+    .saved.show {
+      opacity: 1;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .container {
+        width: calc(100% - 20px);
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .wide {
+        grid-column: auto;
+      }
+
+      .hero {
+        min-height: 70vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="particles"></div>
+
+  <header class="hero">
+    <button class="theme-button" id="themeButton">☾</button>
+
+    <div>
+      <svg class="symbol" viewBox="0 0 200 180" aria-label="Golden symbol">
+        <polygon points="100,5 52,88 148,88"
+                 fill="none" stroke="#e8c66a" stroke-width="8"/>
+        <polygon points="50,92 4,172 96,172"
+                 fill="none" stroke="#e8c66a" stroke-width="8"/>
+        <polygon points="150,92 104,172 196,172"
+                 fill="none" stroke="#e8c66a" stroke-width="8"/>
+      </svg>
+
+      <div class="eyebrow">ADVENTURE JOURNAL</div>
+      <h1>Twilight Princess</h1>
+
+      <p class="subtitle">
+        دفترچهٔ شخصی و بدون اسپویل برای ثبت سفر، پیشرفت و
+        خاطرات تو در سرزمین هایرول
+      </p>
+    </div>
+
+    <div class="scroll-hint">برای ورود به دفترچه پایین برو ↓</div>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+
+      <article class="card">
+        <h2 class="card-title">پیشرفت ماجراجویی</h2>
+        <div class="progress-number">
+          <span id="progressValue">0</span>%
+        </div>
+
+        <input id="progress" type="range" min="0" max="100" value="0">
+
+        <p class="small">
+          میزان تقریبی پیشرفت خودت را بدون نمایش اطلاعات داستانی ثبت کن.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">آمار سفر</h2>
+
+        <div class="stats">
+          <div class="stat">
+            <strong id="sessions">0</strong>
+            <span class="small">جلسه بازی</span>
+          </div>
+
+          <div class="stat">
+            <strong id="hearts">3</strong>
+            <span class="small">قلب</span>
+          </div>
+        </div>
+
+        <button class="action" id="sessionButton">
+          + ثبت یک جلسهٔ جدید
+        </button>
+
+        <button class="action" id="heartButton">
+          ♥ افزودن قلب
+        </button>
+      </article>
+
+      <article class="card wide">
+        <h2 class="card-title">هدف‌های شخصی</h2>
+
+        <label class="check-item">
+          <input type="checkbox" data-check="start">
+          شروع ماجراجویی در هایرول
+        </label>
+
+        <label class="check-item">
+          <input type="checkbox" data-check="explore">
+          گشت‌وگذار بدون عجله و کشف مسیرهای فرعی
+        </label>
+
+        <label class="check-item">
+          <input type="checkbox" data-check="music">
+          گوش‌دادن کامل به موسیقی و فضای هر منطقه
+        </label>
+
+        <label class="check-item">
+          <input type="checkbox" data-check="finish">
+          تمام‌کردن داستان اصلی
+        </label>
+      </article>
+
+      <article class="card wide">
+        <h2 class="card-title">یادداشت‌های ماجراجویی</h2>
+
+        <textarea id="notes"
+          placeholder="اتفاق‌های مهم، احساسات و چیزهایی را که کشف کردی اینجا بنویس..."></textarea>
+
+        <p class="saved" id="savedMessage">یادداشت ذخیره شد ✓</p>
+      </article>
+
+      <article class="card wide quote">
+        «هر سفری در تاریکی، راهی به سوی نور پیدا می‌کند.»
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    Fan-made adventure journal • بدون اسپویل و قابل استفاده به‌صورت آفلاین
+  </footer>
+
+  <script>
+    const storage = localStorage;
+
+    const progress = document.getElementById("progress");
+    const progressValue = document.getElementById("progressValue");
+    const notes = document.getElementById("notes");
+    const savedMessage = document.getElementById("savedMessage");
+    const sessionsElement = document.getElementById("sessions");
+    const heartsElement = document.getElementById("hearts");
+
+    let sessions = Number(storage.getItem("tp-sessions") || 0);
+    let hearts = Number(storage.getItem("tp-hearts") || 3);
+
+    progress.value = storage.getItem("tp-progress") || 0;
+    progressValue.textContent = progress.value;
+    notes.value = storage.getItem("tp-notes") || "";
+    sessionsElement.textContent = sessions;
+    heartsElement.textContent = hearts;
+
+    progress.addEventListener("input", () => {
+      progressValue.textContent = progress.value;
+      storage.setItem("tp-progress", progress.value);
+    });
+
+    notes.addEventListener("input", () => {
+      storage.setItem("tp-notes", notes.value);
+      savedMessage.classList.add("show");
+
+      clearTimeout(window.savedTimer);
+      window.savedTimer = setTimeout(() => {
+        savedMessage.classList.remove("show");
+      }, 1200);
+    });
+
+    document.getElementById("sessionButton").onclick = () => {
+      sessions++;
+      sessionsElement.textContent = sessions;
+      storage.setItem("tp-sessions", sessions);
+    };
+
+    document.getElementById("heartButton").onclick = () => {
+      hearts++;
+      heartsElement.textContent = hearts;
+      storage.setItem("tp-hearts", hearts);
+    };
+
+    document.querySelectorAll("[data-check]").forEach(item => {
+      const key = "tp-check-" + item.dataset.check;
+      item.checked = storage.getItem(key) === "true";
+
+      item.addEventListener("change", () => {
+        storage.setItem(key, item.checked);
+      });
+    });
+
+    const themeButton = document.getElementById("themeButton");
+
+    if (storage.getItem("tp-theme") === "light") {
+      document.body.classList.add("light");
+      themeButton.textContent = "☀";
+    }
+
+    themeButton.onclick = () => {
+      document.body.classList.toggle("light");
+      const light = document.body.classList.contains("light");
+      themeButton.textContent = light ? "☀" : "☾";
+      storage.setItem("tp-theme", light ? "light" : "dark");
+    };
+
+    const particleBox = document.getElementById("particles");
+
+    for (let i = 0; i < 34; i++) {
+      const particle = document.createElement("span");
+      particle.className = "particle";
+      particle.style.left = Math.random() * 100 + "%";
+      particle.style.animationDuration = 7 + Math.random() * 9 + "s";
+      particle.style.animationDelay = Math.random() * 10 + "s";
+      particle.style.opacity = Math.random();
+      particleBox.appendChild(particle);
+    }
+  </script>
+
+<script src="missions.js"></script>
+<script src="catalog.js"></script>
+</body>
+</html>
