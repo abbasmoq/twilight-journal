@@ -2,200 +2,220 @@ const chapters = [
   {
     title: "Ordon Village",
     description: "آغاز آرام ماجراجویی و آشنایی با زندگی Link در روستا.",
+    descriptionEn: "A quiet beginning that introduces Link's life in the village.",
     tasks: [
-      ["Village Life", "با اهالی Ordon Village صحبت کن و کارهای روزانه را انجام بده."],
-      ["Goat Herding", "به مزرعه برو و در جمع‌کردن بزها کمک کن."],
-      ["First Equipment", "وسایل ابتدایی موردنیاز Link را تهیه کن."],
-      ["Journey Begins", "برای آغاز سفر به سمت Hyrule آماده شو."]
+      ["Village Life", "با اهالی Ordon Village صحبت کن و کارهای روزانه را انجام بده.", "Talk to the residents of Ordon Village and finish the day's chores."],
+      ["Goat Herding", "به مزرعه برو و در جمع‌کردن بزها کمک کن.", "Visit the ranch and help herd the goats."],
+      ["First Equipment", "وسایل ابتدایی موردنیاز Link را تهیه کن.", "Gather Link's first pieces of equipment."],
+      ["Journey Begins", "برای آغاز سفر به سمت Hyrule آماده شو.", "Prepare to begin the journey toward Hyrule."]
     ]
   },
   {
     title: "The Twilight",
     description: "اولین رویارویی با قلمروی اسرارآمیز Twilight.",
+    descriptionEn: "The first encounter with the mysterious Twilight Realm.",
     tasks: [
-      ["Prison Break", "راه خروج از زندان را پیدا کن."],
-      ["Castle Sewers", "از مسیر زیرزمینی و فاضلاب عبور کن."],
-      ["Hyrule Castle", "خودت را به بخش بالایی قلعه برسان."],
-      ["Return to the Light", "راه بازگشت از قلمروی Twilight را پیدا کن."]
+      ["Prison Break", "راه خروج از زندان را پیدا کن.", "Find a way out of the prison."],
+      ["Castle Sewers", "از مسیر زیرزمینی و فاضلاب عبور کن.", "Make your way through the underground sewers."],
+      ["Hyrule Castle", "خودت را به بخش بالایی قلعه برسان.", "Reach the upper levels of the castle."],
+      ["Return to the Light", "راه بازگشت از قلمروی Twilight را پیدا کن.", "Find a path back from the Twilight Realm."]
     ]
   },
   {
     title: "Faron Woods: Twilight",
     description: "بازگشت به جنگل و تلاش برای برگرداندن نور.",
+    descriptionEn: "Return to the woods and begin restoring their light.",
     tasks: [
-      ["Enter Faron Woods", "وارد بخش تاریک Faron Woods شو."],
-      ["Tears of Light", "Tears of Lightهای این منطقه را پیدا کن."],
-      ["Restore Faron", "نور را به Faron Province بازگردان."]
+      ["Enter Faron Woods", "وارد بخش تاریک Faron Woods شو.", "Enter the shadow-covered Faron Woods."],
+      ["Tears of Light", "Tears of Lightهای این منطقه را پیدا کن.", "Find the Tears of Light scattered through the area."],
+      ["Restore Faron", "نور را به Faron Province بازگردان.", "Restore light to Faron Province."]
     ]
   },
   {
     title: "Forest Temple",
     description: "اولین سیاه‌چال بزرگ سفر.",
+    descriptionEn: "The first major dungeon of the journey.",
     tasks: [
-      ["Enter the Temple", "مسیر ورود به Forest Temple را کامل کن."],
-      ["Lost Monkeys", "میمون‌های گرفتار در معبد را پیدا کن."],
-      ["Gale Boomerang", "آیتم اصلی این معبد را به دست بیاور."],
-      ["Temple Guardian", "نبرد نهایی معبد را تمام کن."]
+      ["Enter the Temple", "مسیر ورود به Forest Temple را کامل کن.", "Complete the route into the Forest Temple."],
+      ["Lost Monkeys", "میمون‌های گرفتار در معبد را پیدا کن.", "Find the monkeys trapped inside the temple."],
+      ["Gale Boomerang", "آیتم اصلی این معبد را به دست بیاور.", "Obtain the temple's key item."],
+      ["Temple Guardian", "نبرد نهایی معبد را تمام کن.", "Complete the temple's final battle."]
     ]
   },
   {
     title: "Kakariko Village: Twilight",
     description: "سفر به منطقه‌ای تازه که در تاریکی فرو رفته است.",
+    descriptionEn: "Travel to a new region swallowed by twilight.",
     tasks: [
-      ["Reach Kakariko", "مسیر رسیدن به Kakariko Village را پیدا کن."],
-      ["Search the Village", "تمام بخش‌های قابل‌دسترسی روستا را بررسی کن."],
-      ["Tears of Light", "Tears of Lightهای این منطقه را جمع‌آوری کن."],
-      ["Restore Eldin", "نور را به Eldin Province بازگردان."]
+      ["Reach Kakariko", "مسیر رسیدن به Kakariko Village را پیدا کن.", "Find the way to Kakariko Village."],
+      ["Search the Village", "تمام بخش‌های قابل‌دسترسی روستا را بررسی کن.", "Explore every accessible part of the village."],
+      ["Tears of Light", "Tears of Lightهای این منطقه را جمع‌آوری کن.", "Collect the Tears of Light in this region."],
+      ["Restore Eldin", "نور را به Eldin Province بازگردان.", "Restore light to Eldin Province."]
     ]
   },
   {
     title: "Death Mountain",
     description: "صعود از کوه و جلب اعتماد Goronها.",
+    descriptionEn: "Climb the mountain and earn the Gorons' trust.",
     tasks: [
-      ["Mountain Trail", "مسیر Death Mountain را طی کن."],
-      ["Goron Challenge", "راه عبور از نگهبانان Goron را یاد بگیر."],
-      ["Sumo Training", "برای رویارویی بعدی آماده شو."],
-      ["Reach the Mines", "راه ورود به Goron Mines را باز کن."]
+      ["Mountain Trail", "مسیر Death Mountain را طی کن.", "Follow the trail up Death Mountain."],
+      ["Goron Challenge", "راه عبور از نگهبانان Goron را یاد بگیر.", "Learn how to get past the Goron guards."],
+      ["Sumo Training", "برای رویارویی بعدی آماده شو.", "Train for the challenge ahead."],
+      ["Reach the Mines", "راه ورود به Goron Mines را باز کن.", "Open the way into the Goron Mines."]
     ]
   },
   {
     title: "Goron Mines",
     description: "کاوش در معدن داغ و مکانیکی Goronها.",
+    descriptionEn: "Explore the Gorons' fiery, mechanical mine.",
     tasks: [
-      ["Explore the Mines", "بخش‌های ابتدایی معدن را بررسی کن."],
-      ["Goron Elders", "با بزرگان Goron ملاقات کن."],
-      ["Hero's Bow", "آیتم اصلی معدن را به دست بیاور."],
-      ["Mine Guardian", "نبرد نهایی معدن را تمام کن."]
+      ["Explore the Mines", "بخش‌های ابتدایی معدن را بررسی کن.", "Explore the mine's opening areas."],
+      ["Goron Elders", "با بزرگان Goron ملاقات کن.", "Meet the Goron elders."],
+      ["Hero's Bow", "آیتم اصلی معدن را به دست بیاور.", "Obtain the mine's key item."],
+      ["Mine Guardian", "نبرد نهایی معدن را تمام کن.", "Complete the mine's final battle."]
     ]
   },
   {
     title: "Lanayru Province: Twilight",
     description: "گسترش سفر به بزرگ‌ترین بخش Hyrule.",
+    descriptionEn: "Extend the journey into Hyrule's largest province.",
     tasks: [
-      ["Reach Lake Hylia", "راه رسیدن به Lake Hylia را پیدا کن."],
-      ["Restore the Water", "مشکل جریان آب منطقه را برطرف کن."],
-      ["Tears of Light", "Tears of Lightهای Lanayru را جمع‌آوری کن."],
-      ["Restore Lanayru", "نور را به این سرزمین بازگردان."]
+      ["Reach Lake Hylia", "راه رسیدن به Lake Hylia را پیدا کن.", "Find a route to Lake Hylia."],
+      ["Restore the Water", "مشکل جریان آب منطقه را برطرف کن.", "Restore the region's water flow."],
+      ["Tears of Light", "Tears of Lightهای Lanayru را جمع‌آوری کن.", "Collect Lanayru's Tears of Light."],
+      ["Restore Lanayru", "نور را به این سرزمین بازگردان.", "Bring light back to Lanayru Province."]
     ]
   },
   {
     title: "Lakebed Temple",
     description: "ورود به معبدی پیچیده در اعماق آب.",
+    descriptionEn: "Enter a complex temple hidden beneath the water.",
     tasks: [
-      ["Prepare for the Depths", "تجهیزات لازم برای ورود به معبد را آماده کن."],
-      ["Control the Water", "مسیر جریان آب داخل معبد را تغییر بده."],
-      ["Clawshot", "آیتم اصلی معبد را پیدا کن."],
-      ["Temple Guardian", "نبرد نهایی معبد را تمام کن."]
+      ["Prepare for the Depths", "تجهیزات لازم برای ورود به معبد را آماده کن.", "Prepare the equipment needed to enter the temple."],
+      ["Control the Water", "مسیر جریان آب داخل معبد را تغییر بده.", "Redirect the flow of water inside the temple."],
+      ["Clawshot", "آیتم اصلی معبد را پیدا کن.", "Find the temple's key item."],
+      ["Temple Guardian", "نبرد نهایی معبد را تمام کن.", "Complete the temple's final battle."]
     ]
   },
   {
     title: "The Master Sword",
     description: "سفری مهم برای یافتن شمشیری افسانه‌ای.",
+    descriptionEn: "An important journey in search of a legendary sword.",
     tasks: [
-      ["Help Midna", "راه نجات Midna را پیدا کن."],
-      ["Enter Sacred Grove", "مسیر مخفی Sacred Grove را باز کن."],
-      ["Guardian Puzzle", "معمای نگهبانان جنگل را حل کن."],
-      ["Claim the Sword", "شمشیر افسانه‌ای را به دست بیاور."]
+      ["Help Midna", "راه نجات Midna را پیدا کن.", "Find a way to save Midna."],
+      ["Enter Sacred Grove", "مسیر مخفی Sacred Grove را باز کن.", "Open the hidden path into the Sacred Grove."],
+      ["Guardian Puzzle", "معمای نگهبانان جنگل را حل کن.", "Solve the forest guardians' puzzle."],
+      ["Claim the Sword", "شمشیر افسانه‌ای را به دست بیاور.", "Claim the legendary sword."]
     ]
   },
   {
     title: "Gerudo Desert",
     description: "حرکت به سوی بیابانی دورافتاده و ناشناخته.",
+    descriptionEn: "Travel toward a distant and unfamiliar desert.",
     tasks: [
-      ["Reach the Desert", "راه انتقال به Gerudo Desert را پیدا کن."],
-      ["Desert Exploration", "بخش‌های مهم بیابان را بررسی کن."],
-      ["Enemy Camp", "از اردوگاه دشمن عبور کن."],
-      ["Ancient Grounds", "راه ورود به بنای باستانی را باز کن."]
+      ["Reach the Desert", "راه انتقال به Gerudo Desert را پیدا کن.", "Find transportation to Gerudo Desert."],
+      ["Desert Exploration", "بخش‌های مهم بیابان را بررسی کن.", "Explore the desert's important locations."],
+      ["Enemy Camp", "از اردوگاه دشمن عبور کن.", "Make your way through the enemy camp."],
+      ["Ancient Grounds", "راه ورود به بنای باستانی را باز کن.", "Open the entrance to the ancient grounds."]
     ]
   },
   {
     title: "Arbiter's Grounds",
     description: "کاوش در زندانی باستانی و تاریک.",
+    descriptionEn: "Explore an ancient prison consumed by darkness.",
     tasks: [
-      ["Four Poe Flames", "چهار شعلهٔ گمشده را پیدا کن."],
-      ["Spinner", "آیتم اصلی این مکان را به دست بیاور."],
-      ["Ancient Guardian", "نبرد اصلی این بخش را تمام کن."],
-      ["Mirror Chamber", "خودت را به اتاق Mirror برسان."]
+      ["Four Poe Flames", "چهار شعلهٔ گمشده را پیدا کن.", "Find the four missing Poe flames."],
+      ["Spinner", "آیتم اصلی این مکان را به دست بیاور.", "Obtain this dungeon's key item."],
+      ["Ancient Guardian", "نبرد اصلی این بخش را تمام کن.", "Complete the dungeon's main battle."],
+      ["Mirror Chamber", "خودت را به اتاق Mirror برسان.", "Reach the Mirror Chamber."]
     ]
   },
   {
     title: "Scaling Snowpeak",
     description: "صعود از منطقه‌ای یخ‌زده و خطرناک.",
+    descriptionEn: "Climb through a frozen and dangerous region.",
     tasks: [
-      ["Follow the Scent", "رد مسیر را در میان برف دنبال کن."],
-      ["Climb Snowpeak", "خودت را به بالای کوه برسان."],
-      ["Snowboard Race", "مسیر سریع کوهستانی را کامل کن."],
-      ["Reach the Ruins", "به عمارت متروکه وارد شو."]
+      ["Follow the Scent", "رد مسیر را در میان برف دنبال کن.", "Follow the scent trail through the snow."],
+      ["Climb Snowpeak", "خودت را به بالای کوه برسان.", "Make your way to the top of Snowpeak."],
+      ["Snowboard Race", "مسیر سریع کوهستانی را کامل کن.", "Complete the high-speed mountain route."],
+      ["Reach the Ruins", "به عمارت متروکه وارد شو.", "Enter the abandoned mansion."]
     ]
   },
   {
     title: "Snowpeak Ruins",
     description: "جست‌وجو در عمارتی عجیب میان برف.",
+    descriptionEn: "Search a strange mansion buried in the snow.",
     tasks: [
-      ["Explore the Mansion", "اتاق‌های قابل‌دسترسی عمارت را بررسی کن."],
-      ["Find the Ingredients", "به ساکنان عمارت برای تکمیل غذایشان کمک کن."],
-      ["Ball and Chain", "آیتم اصلی عمارت را پیدا کن."],
-      ["Mansion Guardian", "نبرد نهایی عمارت را تمام کن."]
+      ["Explore the Mansion", "اتاق‌های قابل‌دسترسی عمارت را بررسی کن.", "Explore the mansion's accessible rooms."],
+      ["Find the Ingredients", "به ساکنان عمارت برای تکمیل غذایشان کمک کن.", "Help the mansion's residents finish their meal."],
+      ["Ball and Chain", "آیتم اصلی عمارت را پیدا کن.", "Find the mansion's key item."],
+      ["Mansion Guardian", "نبرد نهایی عمارت را تمام کن.", "Complete the mansion's final battle."]
     ]
   },
   {
     title: "Sacred Grove: Round Two",
     description: "بازگشت دوباره به جنگل مقدس.",
+    descriptionEn: "Return once more to the Sacred Grove.",
     tasks: [
-      ["Return to the Grove", "دوباره مسیر Sacred Grove را پیدا کن."],
-      ["Follow the Guide", "راهنمای جنگل را تا پایان دنبال کن."],
-      ["Pedestal Puzzle", "معمای بخش مقدس را حل کن."],
-      ["Open the Ancient Door", "دروازهٔ زمان را فعال کن."]
+      ["Return to the Grove", "دوباره مسیر Sacred Grove را پیدا کن.", "Find the path back to the Sacred Grove."],
+      ["Follow the Guide", "راهنمای جنگل را تا پایان دنبال کن.", "Follow the forest guide to the end."],
+      ["Pedestal Puzzle", "معمای بخش مقدس را حل کن.", "Solve the puzzle in the sacred clearing."],
+      ["Open the Ancient Door", "دروازهٔ زمان را فعال کن.", "Activate the ancient Door of Time."]
     ]
   },
   {
     title: "Temple of Time",
     description: "حرکت در معبدی میان گذشته و حال.",
+    descriptionEn: "Navigate a temple stretching between past and present.",
     tasks: [
-      ["Climb the Temple", "خودت را به طبقات بالاتر معبد برسان."],
-      ["Dominion Rod", "آیتم اصلی معبد را پیدا کن."],
-      ["Ancient Statue", "مجسمهٔ باستانی را به ورودی بازگردان."],
-      ["Temple Guardian", "نبرد نهایی معبد را تمام کن."]
+      ["Climb the Temple", "خودت را به طبقات بالاتر معبد برسان.", "Reach the temple's upper floors."],
+      ["Dominion Rod", "آیتم اصلی معبد را پیدا کن.", "Find the temple's key item."],
+      ["Ancient Statue", "مجسمهٔ باستانی را به ورودی بازگردان.", "Return the ancient statue to the entrance."],
+      ["Temple Guardian", "نبرد نهایی معبد را تمام کن.", "Complete the temple's final battle."]
     ]
   },
   {
     title: "In Search of the Sky",
     description: "پیداکردن راه رسیدن به سرزمینی در آسمان.",
+    descriptionEn: "Find a way to reach a land in the sky.",
     tasks: [
-      ["Restore the Memories", "برای بازیابی خاطرات ازدست‌رفته کمک کن."],
-      ["Hidden Village", "روستای مخفی را پیدا کن."],
-      ["Ancient Book", "اطلاعات کتاب باستانی را کامل کن."],
-      ["Repair the Cannon", "وسیلهٔ رسیدن به آسمان را آماده کن."]
+      ["Restore the Memories", "برای بازیابی خاطرات ازدست‌رفته کمک کن.", "Help restore the missing memories."],
+      ["Hidden Village", "روستای مخفی را پیدا کن.", "Find the Hidden Village."],
+      ["Ancient Book", "اطلاعات کتاب باستانی را کامل کن.", "Complete the ancient book's missing information."],
+      ["Repair the Cannon", "وسیلهٔ رسیدن به آسمان را آماده کن.", "Prepare the device that can reach the sky."]
     ]
   },
   {
     title: "City in the Sky",
     description: "کاوش در شهری معلق بر فراز ابرها.",
+    descriptionEn: "Explore a city suspended above the clouds.",
     tasks: [
-      ["Enter the City", "مسیر ابتدایی شهر آسمانی را طی کن."],
-      ["Double Clawshots", "آیتم اصلی این بخش را به دست بیاور."],
-      ["Cross the Sky", "با استفاده از توانایی جدید پیشروی کن."],
-      ["Sky Guardian", "نبرد نهایی شهر را تمام کن."]
+      ["Enter the City", "مسیر ابتدایی شهر آسمانی را طی کن.", "Cross the opening section of the city in the sky."],
+      ["Double Clawshots", "آیتم اصلی این بخش را به دست بیاور.", "Obtain this dungeon's key item."],
+      ["Cross the Sky", "با استفاده از توانایی جدید پیشروی کن.", "Use the new ability to move through the sky."],
+      ["Sky Guardian", "نبرد نهایی شهر را تمام کن.", "Complete the city's final battle."]
     ]
   },
   {
     title: "Palace of Twilight",
     description: "ورود به قلب قلمروی Twilight.",
+    descriptionEn: "Enter the heart of the Twilight Realm.",
     tasks: [
-      ["Enter the Palace", "راه ورود به قصر را باز کن."],
-      ["Recover the Sols", "منابع نور قصر را پیدا و منتقل کن."],
-      ["Empower the Sword", "قدرت تازه‌ای برای شمشیر آزاد کن."],
-      ["Palace Guardian", "نبرد اصلی این قلمرو را کامل کن."]
+      ["Enter the Palace", "راه ورود به قصر را باز کن.", "Open the way into the palace."],
+      ["Recover the Sols", "منابع نور قصر را پیدا و منتقل کن.", "Find and carry the palace's sources of light."],
+      ["Empower the Sword", "قدرت تازه‌ای برای شمشیر آزاد کن.", "Awaken a new power within the sword."],
+      ["Palace Guardian", "نبرد اصلی این قلمرو را کامل کن.", "Complete the realm's main battle."]
     ]
   },
   {
     title: "Hyrule Castle",
     description: "آخرین بخش از سفر اصلی در Hyrule.",
+    descriptionEn: "The final chapter of the main journey through Hyrule.",
     tasks: [
-      ["Enter the Castle", "راه ورود به Hyrule Castle را باز کن."],
-      ["Explore the Castle", "مسیرهای داخلی و اختیاری قلعه را بررسی کن."],
-      ["Reach the Throne", "خودت را برای رویارویی پایانی آماده کن."],
-      ["Complete the Journey", "داستان اصلی Twilight Princess را تمام کن."]
+      ["Enter the Castle", "راه ورود به Hyrule Castle را باز کن.", "Open the way into Hyrule Castle."],
+      ["Explore the Castle", "مسیرهای داخلی و اختیاری قلعه را بررسی کن.", "Explore the castle's main and optional paths."],
+      ["Reach the Throne", "خودت را برای رویارویی پایانی آماده کن.", "Prepare for the final confrontation."],
+      ["Complete the Journey", "داستان اصلی Twilight Princess را تمام کن.", "Complete the main story of Twilight Princess."]
     ]
   }
 ];
@@ -404,13 +424,13 @@ function renderJourney() {
     </div>
 
     <p class="small">
-      فصل جاری را کامل کن تا فصل بعدی از تاریکی خارج شود.
+      ${tpT("journeyHelp")}
     </p>
 
     <div id="chapterList"></div>
 
     <button class="reset-data" id="resetAll">
-      Reset All Saved Data
+      ${tpT("resetAll")}
     </button>
   `;
 
@@ -455,12 +475,12 @@ function renderJourney() {
       </button>
 
       <div class="chapter-body">
-        <p class="small">${chapter.description}</p>
+        <p class="small">${tpLanguage() === "en" ? chapter.descriptionEn : chapter.description}</p>
 
         <div class="missions"></div>
 
         <button class="finish-chapter">
-          ${completed ? "Chapter Completed ✓" : "Complete Chapter"}
+          ${completed ? tpT("chapterCompleted") : tpT("completeChapter")}
         </button>
       </div>
     `;
@@ -488,7 +508,7 @@ function renderJourney() {
 
         <span>
           <strong>${task[0]}</strong>
-          <span>${task[1]}</span>
+          <span>${tpLanguage() === "en" ? task[2] : task[1]}</span>
         </span>
       `;
 
@@ -543,9 +563,7 @@ function renderJourney() {
   });
 
   journey.querySelector("#resetAll").onclick = () => {
-    const accepted = confirm(
-      "تمام پیشرفت، قلب‌ها، جلسات و یادداشت‌ها پاک شوند؟"
-    );
+    const accepted = confirm(tpT("resetAllConfirm"));
 
     if (!accepted) return;
 
@@ -566,12 +584,10 @@ if (statsCard) {
   const resetStatsButton = document.createElement("button");
 
   resetStatsButton.className = "reset-data";
-  resetStatsButton.textContent = "Reset Hearts & Sessions";
+  resetStatsButton.textContent = tpT("resetStats");
 
   resetStatsButton.onclick = () => {
-    const accepted = confirm(
-      "تعداد قلب‌ها و جلسه‌های بازی به حالت اولیه برگردند؟"
-    );
+    const accepted = confirm(tpT("resetStatsConfirm"));
 
     if (!accepted) return;
 
@@ -586,4 +602,13 @@ if (statsCard) {
   };
 
   statsCard.appendChild(resetStatsButton);
+
+  window.addEventListener("tp-language-change", () => {
+    resetStatsButton.textContent = tpT("resetStats");
+  });
 }
+
+window.addEventListener("tp-language-change", () => {
+  renderJourney();
+  updateMainProgress();
+});
