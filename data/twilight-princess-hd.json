@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "updatedAt": "2026-09-12",
+
+  "game": {
+    "id": "twilight-princess-hd",
+    "title": "The Legend of Zelda: Twilight Princess HD",
+    "platform": "Wii U",
+    "releaseYear": 2016,
+    "language": "fa-IR",
+    "titleLanguage": "en"
+  },
+
+  "settings": {
+    "hideFutureContent": true,
+    "showSpoilerWarnings": true
+  },
+
+  "mainQuests": [
+    {
+      "id": "mq-01",
+      "title": "Ordon Village",
+      "description": "آشنایی با Ordon Village، انجام کارهای روزانه و آماده‌شدن برای آغاز سفر.",
+      "rewards": ["Wooden Sword", "Slingshot", "Lantern"]
+    },
+    {
+      "id": "mq-02",
+      "title": "The Twilight",
+      "description": "فرار از زندان، عبور از مسیرهای زیرزمینی و شناخت قلمروی Twilight.",
+      "rewards": []
+    },
+    {
+      "id": "mq-03",
+      "title": "Faron Woods: Twilight",
+      "description": "پیداکردن Tears of Light و بازگرداندن نور به Faron Province.",
+      "rewards": ["Vessel of Light"]
+    },
+    {
+      "id": "mq-04",
+      "title": "Forest Temple",
+      "description": "نجات ساکنان گرفتار معبد و تکمیل نخستین سیاه‌چال بزرگ.",
+      "rewards": ["Gale Boomerang", "Fused Shadow"]
+    },
+    {
+      "id": "mq-05",
+      "title": "Kakariko Village: Twilight",
+      "description": "رسیدن به Kakariko Village و بازگرداندن نور به Eldin Province.",
+      "rewards": ["Vessel of Light"]
+    },
+    {
+      "id": "mq-06",
+      "title": "Death Mountain",
+      "description": "عبور از مسیر کوهستان و جلب اعتماد Goronها.",
+      "rewards": ["Iron Boots"]
+    },
+    {
+      "id": "mq-07",
+      "title": "Goron Mines",
+      "description": "کاوش در معدن Goronها و نجات رهبر آن‌ها.",
+      "rewards": ["Hero's Bow", "Fused Shadow"]
+    },
+    {
+      "id": "mq-08",
+      "title": "Lanayru Province: Twilight",
+      "description": "بررسی Lake Hylia و بازگرداندن نور به Lanayru Province.",
+      "rewards": ["Zora Armor", "Vessel of Light"]
+    },
+    {
+      "id": "mq-09",
+      "title": "Lakebed Temple",
+      "description": "کنترل جریان آب و عبور از معبدی پیچیده در اعماق دریاچه.",
+      "rewards": ["Clawshot", "Fused Shadow"]
+    },
+    {
+      "id": "mq-10",
+      "title": "The Master Sword",
+      "description": "پیداکردن راه Sacred Grove و به‌دست‌آوردن شمشیر افسانه‌ای.",
+      "rewards": ["Master Sword"]
+    },
+    {
+      "id": "mq-11",
+      "title": "Gerudo Desert",
+      "description": "کاوش در بیابان و بازکردن مسیر یک بنای باستانی.",
+      "rewards": []
+    },
+    {
+      "id": "mq-12",
+      "title": "Arbiter's Grounds",
+      "description": "پیداکردن شعله‌های گمشده و رسیدن به Mirror Chamber.",
+      "rewards": ["Spinner", "Mirror Shard"]
+    },
+    {
+      "id": "mq-13",
+      "title": "Scaling Snowpeak",
+      "description": "دنبال‌کردن رد مسیر و صعود از کوهستان یخ‌زده.",
+      "rewards": []
+    },
+    {
+      "id": "mq-14",
+      "title": "Snowpeak Ruins",
+      "description": "جست‌وجو در عمارت متروکه و کشف راز ساکنان آن.",
+      "rewards": ["Ball and Chain", "Mirror Shard"]
+    },
+    {
+      "id": "mq-15",
+      "title": "Sacred Grove: Round Two",
+      "description": "بازگشت به Sacred Grove و بازکردن یک دروازه باستانی.",
+      "rewards": []
+    },
+    {
+      "id": "mq-16",
+      "title": "Temple of Time",
+      "description": "حرکت در معبد و بازگرداندن مجسمه باستانی به ورودی.",
+      "rewards": ["Dominion Rod", "Mirror Shard"]
+    },
+    {
+      "id": "mq-17",
+      "title": "In Search of the Sky",
+      "description": "کامل‌کردن سرنخ‌های باستانی و پیداکردن مسیر آسمان.",
+      "rewards": ["Ancient Sky Book"]
+    },
+    {
+      "id": "mq-18",
+      "title": "City in the Sky",
+      "description": "عبور از شهر معلق و استفاده از تجهیزات تازه برای پیشروی.",
+      "rewards": ["Double Clawshots", "Mirror Shard"]
+    },
+    {
+      "id": "mq-19",
+      "title": "Palace of Twilight",
+      "description": "ورود به قلب قلمروی Twilight و آزادکردن قدرت نور.",
+      "rewards": ["Light-infused Master Sword"]
+    },
+    {
+      "id": "mq-20",
+      "title": "Hyrule Castle",
+      "description": "ورود به قلعه و تکمیل آخرین بخش از ماجراجویی اصلی.",
+      "rewards": []
+    }
+  ],
+
+  "sideQuests": [
+    {
+      "id": "sq-01",
+      "title": "Sera's Cat",
+      "description": "برای بازگرداندن گربهٔ Sera از مهارت ماهیگیری استفاده کن.",
+      "availableAfter": "mq-01",
+      "rewards": ["Bottle of Milk"]
+    },
+    {
+      "id": "sq-02",
+      "title": "Golden Bugs",
+      "description": "۲۴ حشرهٔ طلایی را پیدا کن و آن‌ها را به Agitha تحویل بده.",
+      "availableAfter": "mq-08",
+      "rewards": ["Big Wallet", "Giant Wallet"]
+    },
+    {
+      "id": "sq-03",
+      "title": "Jovani and the Poe Souls",
+      "description": "Poe Soulها را جمع‌آوری کن تا طلسم Jovani به‌تدریج شکسته شود.",
+      "availableAfter": "mq-08",
+      "rewards": ["Bottle of Great Fairy's Tears", "Silver Rupee"]
+    },
+    {
+      "id": "sq-04",
+      "title": "Hidden Skills",
+      "description": "Howling Stoneها را پیدا کن و هفت فن مخفی شمشیرزنی را یاد بگیر.",
+      "availableAfter": "mq-03",
+      "rewards": ["Seven Hidden Skills"]
+    },
+    {
+      "id": "sq-05",
+      "title": "Malo Mart",
+      "description": "برای توسعه فروشگاه Malo Mart و کاهش قیمت Magic Armor کمک کن.",
+      "availableAfter": "mq-07",
+      "rewards": ["Magic Armor"]
+    },
+    {
+      "id": "sq-06",
+      "title": "Cave of Ordeals",
+      "description": "پنجاه طبقهٔ مبارزه را در Gerudo Desert پشت سر بگذار.",
+      "availableAfter": "mq-12",
+      "rewards": ["Great Fairy's Tears"]
+    },
+    {
+      "id": "sq-07",
+      "title": "STAR Game",
+      "description": "چالش‌های STAR Tent در Castle Town را تکمیل کن.",
+      "availableAfter": "mq-09",
+      "rewards": ["Big Quiver", "Giant Quiver"]
+    },
+    {
+      "id": "sq-08",
+      "title": "Iza's Rapid Ride",
+      "description": "مسیر رودخانه را پاک‌سازی کن و مینی‌گیم قایق‌رانی را کامل کن.",
+      "availableAfter": "mq-08",
+      "rewards": ["Giant Bomb Bag"]
+    },
+    {
+      "id": "sq-09",
+      "title": "Fishing Hole",
+      "description": "گونه‌های مختلف ماهی را در Fishing Hole پیدا و ثبت کن.",
+      "availableAfter": "mq-08",
+      "rewards": ["Fishing Records"]
+    },
+    {
+      "id": "sq-10",
+      "title": "Rollgoal",
+      "description": "مراحل بازی Rollgoal را در Fishing Hole کامل کن.",
+      "availableAfter": "mq-08",
+      "rewards": ["Upgraded Fishing Wallet"]
+    },
+    {
+      "id": "sq-11",
+      "title": "Hidden Village Cats",
+      "description": "با تمام گربه‌های Hidden Village صحبت کن.",
+      "availableAfter": "mq-17",
+      "rewards": ["Piece of Heart"]
+    },
+    {
+      "id": "sq-12",
+      "title": "Snowpeak Racing",
+      "description": "در مسابقهٔ اسنوبورد Snowpeak پیروز شو.",
+      "availableAfter": "mq-14",
+      "rewards": ["Piece of Heart"]
+    }
+  ],
+
+  "equipment": {
+    "armor": [
+      {
+        "id": "armor-01",
+        "title": "Hero's Clothes",
+        "description": "لباس اصلی قهرمان که در جریان داستان دریافت می‌شود."
+      },
+      {
+        "id": "armor-02",
+        "title": "Zora Armor",
+        "description": "امکان تنفس و حرکت بهتر زیر آب را فراهم می‌کند."
+      },
+      {
+        "id": "armor-03",
+        "title": "Magic Armor",
+        "description": "در برابر آسیب محافظت می‌کند، اما هنگام استفاده Rupee مصرف می‌کند."
+      }
+    ],
+
+    "swords": [
+      {
+        "id": "sword-01",
+        "title": "Wooden Sword",
+        "description": "نخستین شمشیر تمرینی Link."
+      },
+      {
+        "id": "sword-02",
+        "title": "Ordon Sword",
+        "description": "شمشیری ساخته‌شده در Ordon Village."
+      },
+      {
+        "id": "sword-03",
+        "title": "Master Sword",
+        "description": "شمشیر افسانه‌ای با قدرت مقابله با تاریکی."
+      }
+    ],
+
+    "shields": [
+      {
+        "id": "shield-01",
+        "title": "Ordon Shield",
+        "description": "سپر چوبی ساخته‌شده در Ordon Village."
+      },
+      {
+        "id": "shield-02",
+        "title": "Wooden Shield",
+        "description": "سپری سبک که در برابر آتش آسیب‌پذیر است."
+      },
+      {
+        "id": "shield-03",
+        "title": "Hylian Shield",
+        "description": "سپر فلزی مقاوم با نماد خاندان سلطنتی Hyrule."
+      }
+    ],
+
+    "tools": [
+      {
+        "id": "tool-01",
+        "title": "Slingshot",
+        "description": "برای هدف‌گیری دشمنان و اشیای کوچک از فاصله دور."
+      },
+      {
+        "id": "tool-02",
+        "title": "Lantern",
+        "description": "برای روشن‌کردن محیط و سوزاندن موانع."
+      },
+      {
+        "id": "tool-03",
+        "title": "Gale Boomerang",
+        "description": "ایجاد جریان باد و جابه‌جایی اشیا."
+      },
+      {
+        "id": "tool-04",
+        "title": "Iron Boots",
+        "description": "افزایش وزن Link و امکان حرکت در کف آب."
+      },
+      {
+        "id": "tool-05",
+        "title": "Hero's Bow",
+        "description": "سلاح دوربرد اصلی بازی."
+      },
+      {
+        "id": "tool-06",
+        "title": "Clawshot",
+        "description": "اتصال به نقاط مشخص و عبور از فاصله‌ها."
+      },
+      {
+        "id": "tool-07",
+        "title": "Spinner",
+        "description": "حرکت روی ریل‌های مخصوص و فعال‌کردن سازوکارها."
+      },
+      {
+        "id": "tool-08",
+        "title": "Ball and Chain",
+        "description": "سلاحی سنگین برای شکستن یخ و موانع محکم."
+      },
+      {
+        "id": "tool-09",
+        "title": "Dominion Rod",
+        "description": "کنترل مجسمه‌های باستانی."
+      },
+      {
+        "id": "tool-10",
+        "title": "Double Clawshots",
+        "description": "استفادهٔ متوالی از دو Clawshot برای حرکت در هوا."
+      }
+    ]
+  }
+}
