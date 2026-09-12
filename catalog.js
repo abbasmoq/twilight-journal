@@ -267,11 +267,11 @@ function createCatalogCard() {
   card.innerHTML = `
     <div class="catalog-top">
       <h2 class="card-title" style="margin:0">
-        Game Database
+        ${tpT("gameDatabase")}
       </h2>
 
       <span class="catalog-version" id="catalogVersion">
-        در حال دریافت اطلاعات...
+        ${tpT("loadingData")}
       </span>
     </div>
 
@@ -279,28 +279,28 @@ function createCatalogCard() {
       id="catalogSearch"
       class="catalog-search"
       type="search"
-      placeholder="جست‌وجوی مأموریت یا تجهیزات..."
+      placeholder="${tpT("searchPlaceholder")}"
     >
 
     <div class="catalog-tabs">
       <button class="catalog-tab active" data-tab="sideQuests">
-        Side Quests
+        ${tpT("sideQuests")}
       </button>
 
       <button class="catalog-tab" data-tab="armor">
-        Armor
+        ${tpT("armor")}
       </button>
 
       <button class="catalog-tab" data-tab="swords">
-        Swords
+        ${tpT("swords")}
       </button>
 
       <button class="catalog-tab" data-tab="shields">
-        Shields
+        ${tpT("shields")}
       </button>
 
       <button class="catalog-tab" data-tab="tools">
-        Tools
+        ${tpT("tools")}
       </button>
     </div>
 
@@ -310,11 +310,11 @@ function createCatalogCard() {
 
     <div class="catalog-actions">
       <button class="catalog-action" id="revealEquipment">
-        Reveal Equipment
+        ${tpT("revealEquipment")}
       </button>
 
       <button class="catalog-action" id="resetCatalog">
-        Reset This Section
+        ${tpT("resetSection")}
       </button>
     </div>
   `;
@@ -359,7 +359,7 @@ function createCatalogCard() {
 
     if (
       opening &&
-      !confirm("نام تمام تجهیزات ممکن است بخشی از بازی را لو بدهد. نمایش داده شوند؟")
+      !confirm(tpT("revealConfirm"))
     ) {
       return;
     }
@@ -375,9 +375,7 @@ function createCatalogCard() {
   };
 
   card.querySelector("#resetCatalog").onclick = () => {
-    const accepted = confirm(
-      "وضعیت مأموریت‌های فرعی و تجهیزات پاک شود؟"
-    );
+    const accepted = confirm(tpT("resetCatalogConfirm"));
 
     if (!accepted) return;
 
@@ -402,7 +400,8 @@ function renderSideQuests(grid, data) {
 
     return (
       quest.title.toLowerCase().includes(catalogState.search) ||
-      quest.description.toLowerCase().includes(catalogState.search)
+      (tpLanguage() === "en" ? quest.descriptionEn : quest.description)
+        .toLowerCase().includes(catalogState.search)
     );
   });
 
@@ -411,10 +410,9 @@ function renderSideQuests(grid, data) {
   ).length;
 
   document.getElementById("catalogSummary").textContent =
-    `${completedCount} تکمیل‌شده از ${data.sideQuests.length} مأموریت فرعی`;
+    tpT("sideSummary", completedCount, data.sideQuests.length);
 
-  document.getElementById("catalogWarning").textContent =
-    "مأموریت‌های فرعی فقط پس از تکمیل فصل مرتبط در Main Journey نمایش داده می‌شوند.";
+  document.getElementById("catalogWarning").textContent = tpT("sideWarning");
 
   visibleQuests.forEach(quest => {
     const unlocked = sideQuestUnlocked(quest);
@@ -432,7 +430,7 @@ function renderSideQuests(grid, data) {
       entry.innerHTML = `
         <h3 class="catalog-title">???</h3>
         <p class="catalog-description">
-          برای مشاهده، ابتدا فصل مرتبط در Main Journey را کامل کن.
+          ${tpT("unlockQuest")}
         </p>
       `;
 
@@ -444,7 +442,7 @@ function renderSideQuests(grid, data) {
       <h3 class="catalog-title">${quest.title}</h3>
 
       <p class="catalog-description">
-        ${quest.description}
+        ${tpLanguage() === "en" ? quest.descriptionEn : quest.description}
       </p>
 
       <div class="catalog-rewards">
@@ -454,9 +452,9 @@ function renderSideQuests(grid, data) {
       </div>
 
       <select class="status-select">
-        <option value="not-started">Not Started</option>
-        <option value="in-progress">In Progress</option>
-        <option value="completed">Completed</option>
+        <option value="not-started">${tpT("notStarted")}</option>
+        <option value="in-progress">${tpT("inProgress")}</option>
+        <option value="completed">${tpT("completed")}</option>
       </select>
     `;
 
@@ -475,7 +473,7 @@ function renderSideQuests(grid, data) {
   if (!visibleQuests.length) {
     grid.innerHTML = `
       <div class="catalog-empty">
-        نتیجه‌ای پیدا نشد.
+        ${tpT("noResults")}
       </div>
     `;
   }
@@ -493,7 +491,8 @@ function renderEquipment(grid, data) {
 
     return (
       item.title.toLowerCase().includes(catalogState.search) ||
-      item.description.toLowerCase().includes(catalogState.search)
+      (tpLanguage() === "en" ? item.descriptionEn : item.description)
+        .toLowerCase().includes(catalogState.search)
     );
   });
 
@@ -502,12 +501,12 @@ function renderEquipment(grid, data) {
   ).length;
 
   document.getElementById("catalogSummary").textContent =
-    `${obtainedCount} دریافت‌شده از ${list.length} مورد`;
+    tpT("equipmentSummary", obtainedCount, list.length);
 
   document.getElementById("catalogWarning").textContent =
     catalogState.revealEquipment
-      ? "نمایش کامل تجهیزات فعال است."
-      : "محافظت در برابر اسپویل فعال است؛ برای مشاهده نام تجهیزات از Reveal Equipment استفاده کن.";
+      ? tpT("equipmentVisible")
+      : tpT("equipmentHidden");
 
   visibleItems.forEach(item => {
     const obtained = Boolean(catalogState.equipment[item.id]);
@@ -522,7 +521,7 @@ function renderEquipment(grid, data) {
       entry.innerHTML = `
         <h3 class="catalog-title">???</h3>
         <p class="catalog-description">
-          این وسیله هنوز مخفی است.
+          ${tpT("hiddenItem")}
         </p>
       `;
 
@@ -534,12 +533,12 @@ function renderEquipment(grid, data) {
       <h3 class="catalog-title">${item.title}</h3>
 
       <p class="catalog-description">
-        ${item.description}
+        ${tpLanguage() === "en" ? item.descriptionEn : item.description}
       </p>
 
       <label class="obtained-label">
         <input type="checkbox" ${obtained ? "checked" : ""}>
-        Obtained
+        ${tpT("obtained")}
       </label>
     `;
 
@@ -557,7 +556,7 @@ function renderEquipment(grid, data) {
   if (!visibleItems.length) {
     grid.innerHTML = `
       <div class="catalog-empty">
-        نتیجه‌ای پیدا نشد.
+        ${tpT("noResults")}
       </div>
     `;
   }
@@ -573,8 +572,8 @@ function renderCatalog() {
   grid.innerHTML = "";
 
   revealButton.textContent = catalogState.revealEquipment
-    ? "Hide Equipment"
-    : "Reveal Equipment";
+    ? tpT("hideEquipment")
+    : tpT("revealEquipment");
 
   revealButton.style.display =
     catalogState.tab === "sideQuests" ? "none" : "block";
@@ -607,17 +606,31 @@ async function loadGameDatabase() {
     renderCatalog();
   } catch (error) {
     card.querySelector("#catalogVersion").textContent =
-      "Database unavailable";
+      tpT("dataUnavailable");
 
-    card.querySelector("#catalogWarning").textContent =
-      "فایل اطلاعات بازی خوانده نشد. برنامه را از طریق سرور محلی اجرا کن.";
+    card.querySelector("#catalogWarning").textContent = tpT("dataErrorHelp");
 
     card.querySelector("#catalogGrid").innerHTML = `
       <div class="catalog-empty">
-        خطا در دریافت دیتابیس
+        ${tpT("dataError")}
       </div>
     `;
   }
 }
 
 loadGameDatabase();
+
+window.addEventListener("tp-language-change", () => {
+  const card = document.getElementById("catalogCard");
+  if (!card) return;
+
+  card.querySelector(".card-title").textContent = tpT("gameDatabase");
+  card.querySelector("#catalogSearch").placeholder = tpT("searchPlaceholder");
+  card.querySelector('[data-tab="sideQuests"]').textContent = tpT("sideQuests");
+  card.querySelector('[data-tab="armor"]').textContent = tpT("armor");
+  card.querySelector('[data-tab="swords"]').textContent = tpT("swords");
+  card.querySelector('[data-tab="shields"]').textContent = tpT("shields");
+  card.querySelector('[data-tab="tools"]').textContent = tpT("tools");
+  card.querySelector("#resetCatalog").textContent = tpT("resetSection");
+  renderCatalog();
+});
