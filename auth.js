@@ -116,8 +116,19 @@
     return { version: 1, values };
   }
 
+  function normalizedSaveValues(save) {
+    const values = save?.values || {};
+    return Object.keys(values)
+      .sort()
+      .reduce((sorted, key) => {
+        sorted[key] = values[key];
+        return sorted;
+      }, {});
+  }
+
   function savesMatch(remote) {
-    return JSON.stringify(remote?.values || {}) === JSON.stringify(collectSave().values);
+    return JSON.stringify(normalizedSaveValues(remote)) ===
+      JSON.stringify(normalizedSaveValues(collectSave()));
   }
 
   function applySave(save) {
