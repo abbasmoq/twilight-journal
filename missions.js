@@ -571,7 +571,13 @@ function renderJourney() {
       .filter(key => key.startsWith("tp-"))
       .forEach(key => localStorage.removeItem(key));
 
-    location.reload();
+    const reloadPage = () => location.reload();
+
+    if (typeof window.tpSyncNow === "function") {
+      window.tpSyncNow().finally(reloadPage);
+    } else {
+      reloadPage();
+    }
   };
 }
 
