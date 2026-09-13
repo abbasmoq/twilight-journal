@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#092235">
+  <title>The Wind Waker HD — Adventure Journal</title>
+  <style>
+    :root{--gold:#f0cb65;--green:#69ddb2;--blue:#68cde7;--text:#f4f0e4;--muted:#a8b6bd;--panel:rgba(7,20,31,.79);--border:rgba(240,203,101,.23);--danger:#ff9292}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;width:100%;overflow-x:hidden}body{margin:0;min-height:100vh;width:100%;overflow-x:hidden;color:var(--text);font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 50% -8%,#316c85 0,transparent 35%),radial-gradient(circle at 90% 45%,#164b62 0,transparent 30%),linear-gradient(165deg,#0b2536,#061019 70%)}
+    body.light{--text:#172c32;--muted:#50676d;--panel:rgba(231,243,235,.84);--border:rgba(61,91,88,.24);background:radial-gradient(circle at 50% 0,#fff2a5 0,transparent 38%),linear-gradient(160deg,#92d6dc,#4d8fa9)}
+    #bubbles{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:-1}.bubble{position:absolute;bottom:-30px;width:5px;height:5px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);opacity:0;animation:rise linear infinite}@keyframes rise{15%{opacity:.7}100%{transform:translateY(-110vh) translateX(35px) scale(1.5);opacity:0}}
+    .hero{position:relative;min-height:76vh;padding:30px 20px 55px;display:grid;place-items:center;text-align:center}.theme-button,.language-button{position:absolute;top:20px;height:46px;border:1px solid var(--border);background:var(--panel);color:var(--gold);font-weight:bold;cursor:pointer;backdrop-filter:blur(12px);z-index:2}.theme-button{left:20px;width:46px;border-radius:50%;font-size:19px}.language-button{right:20px;min-width:48px;padding:0 12px;border-radius:23px}
+    .sail-mark{width:175px;filter:drop-shadow(0 0 23px rgba(240,203,101,.42));animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px) rotate(-2deg)}}.eyebrow{margin-top:18px;color:var(--green);letter-spacing:4px;font-size:11px}h1{margin:9px 0 5px;font:clamp(41px,11vw,78px) Georgia,serif;font-weight:normal;letter-spacing:-2px;text-shadow:0 4px 28px rgba(0,0,0,.6)}.subtitle{max-width:620px;margin:auto;color:var(--muted);line-height:2}.scroll-hint{position:absolute;bottom:20px;color:var(--muted);font-size:12px;animation:bounce 1.8s infinite}@keyframes bounce{50%{transform:translateY(7px)}}
+    .container{width:calc(100% - 28px);max-width:950px;margin-inline:auto;padding-bottom:65px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{width:100%;min-width:0;padding:22px;border:1px solid var(--border);border-radius:24px;background:var(--panel);backdrop-filter:blur(17px);box-shadow:0 20px 60px rgba(0,0,0,.2)}.wide{grid-column:1/-1}.card-title{margin:0 0 18px;color:var(--gold);font:23px Georgia,serif}.progress-number{color:var(--gold);font:49px Georgia,serif}input[type=range]{width:100%;accent-color:var(--gold)}.small{color:var(--muted);font-size:13px;line-height:1.8}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center}.stat strong{display:block;color:var(--gold);font:31px Georgia,serif}.action{width:100%;margin-top:11px;padding:13px;border:0;border-radius:13px;color:#17140b;background:linear-gradient(135deg,#f5dc84,#bd9636);font-weight:bold;cursor:pointer}.secondary{border:1px solid var(--border);color:var(--text);background:rgba(0,0,0,.13)}.check-item{display:flex;align-items:center;gap:11px;padding:11px 0;border-bottom:1px solid var(--border)}.check-item:last-child{border:0}.check-item input{width:20px;height:20px;accent-color:var(--green)}
+    textarea{width:100%;min-height:150px;padding:15px;resize:vertical;border:1px solid var(--border);border-radius:14px;outline:0;color:var(--text);background:rgba(0,0,0,.17);font:inherit;line-height:1.8}textarea:focus{border-color:var(--gold)}.saved{min-height:18px;margin-bottom:0;color:var(--green);font-size:12px;opacity:0;transition:.25s}.saved.show{opacity:1}.quote{text-align:center;color:var(--muted);font:18px/2 Georgia,serif}footer{text-align:center;padding:25px;color:var(--muted);font-size:12px}
+    @media(max-width:650px){.container{width:calc(100% - 20px)}.grid{grid-template-columns:1fr}.wide{grid-column:auto}.hero{min-height:70vh}.card{padding:18px}.stats{grid-template-columns:repeat(3,1fr)}.stat strong{font-size:27px}}
+  </style>
+</head>
+<body data-game-id="wind-waker-hd" data-save-prefix="ww-">
+  <div id="bubbles"></div>
+  <header class="hero">
+    <button class="theme-button" id="themeButton">☾</button>
+    <button class="language-button" id="languageButton">EN</button>
+    <div>
+      <svg class="sail-mark" viewBox="0 0 210 190" aria-label="Sailboat symbol">
+        <path d="M102 12 L102 139 L28 139 Z" fill="none" stroke="#f0cb65" stroke-width="7"/>
+        <path d="M111 42 L181 139 L111 139 Z" fill="none" stroke="#f0cb65" stroke-width="7"/>
+        <path d="M20 151 Q105 185 190 151 Q171 180 105 184 Q41 180 20 151Z" fill="none" stroke="#69ddb2" stroke-width="6"/>
+      </svg>
+      <div class="eyebrow">GREAT SEA JOURNAL</div>
+      <h1>The Wind Waker</h1>
+      <p class="subtitle" id="heroSubtitle"></p>
+    </div>
+    <div class="scroll-hint" id="scrollHint"></div>
+  </header>
+
+  <main class="container"><section class="grid">
+    <article class="card">
+      <h2 class="card-title" id="progressTitle"></h2>
+      <div class="progress-number"><span id="progressValue">0</span>%</div>
+      <input id="progress" type="range" min="0" max="100" value="0" disabled>
+      <p class="small" id="progressHelp"></p>
+    </article>
+    <article class="card">
+      <h2 class="card-title" id="statsTitle"></h2>
+      <div class="stats">
+        <div class="stat"><strong id="sessions">0</strong><span class="small" id="sessionsLabel"></span></div>
+        <div class="stat"><strong id="hearts">3</strong><span class="small" id="heartsLabel"></span></div>
+        <div class="stat"><strong id="heartPieces">0</strong><span class="small" id="piecesLabel"></span></div>
+      </div>
+      <button class="action" id="sessionButton"></button>
+      <button class="action" id="heartButton"></button>
+      <button class="action" id="pieceButton"></button>
+      <button class="action secondary" id="resetStats"></button>
+    </article>
+    <article class="card wide">
+      <h2 class="card-title" id="goalsTitle"></h2>
+      <div id="goals"></div>
+    </article>
+    <article class="card wide" id="journeyCard"></article>
+    <article class="card wide" id="databaseCard"></article>
+    <article class="card wide">
+      <h2 class="card-title" id="notesTitle"></h2>
+      <textarea id="notes"></textarea><p class="saved" id="savedMessage"></p>
+    </article>
+    <article class="card wide quote" id="quote"></article>
+  </section></main>
+  <footer id="footer"></footer>
+
+  <script src="wind-waker.js?v=1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="auth.js?v=3"></script>
+  <script src="game-switcher.js?v=1"></script>
+</body>
+</html>

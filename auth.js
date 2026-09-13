@@ -4,7 +4,8 @@
 
   const SUPABASE_URL = "https://vhbcjfznzmpifjnwneaw.supabase.co";
   const SUPABASE_KEY = "sb_publishable_dhNmwS9YTef0jy-kBNfNKQ_CY1Y_LXv";
-  const GAME_ID = "twilight-princess-hd";
+  const GAME_ID = document.body?.dataset.gameId || "twilight-princess-hd";
+  const SAVE_PREFIX = document.body?.dataset.savePrefix || "tp-";
   const USER_DOMAIN = "users.twilight-journal.app";
 
   let client = null;
@@ -17,7 +18,7 @@
   const nativeClear = Storage.prototype.clear;
 
   function storageChanged(key) {
-    if (!applyingCloudSave && (!key || String(key).startsWith("tp-"))) {
+    if (!applyingCloudSave && (!key || String(key).startsWith(SAVE_PREFIX))) {
       queueCloudSync();
     }
   }
@@ -86,7 +87,7 @@
 
   function language() {
     return typeof window.tpLanguage === "function" ? window.tpLanguage() :
-      (localStorage.getItem("tp-language") === "en" ? "en" : "fa");
+      (localStorage.getItem(SAVE_PREFIX + "language") === "en" ? "en" : "fa");
   }
 
   function t(key, ...args) {
@@ -111,7 +112,7 @@
     const values = {};
     for (let index = 0; index < localStorage.length; index++) {
       const key = localStorage.key(index);
-      if (key?.startsWith("tp-")) values[key] = localStorage.getItem(key);
+      if (key?.startsWith(SAVE_PREFIX)) values[key] = localStorage.getItem(key);
     }
     return { version: 1, values };
   }
@@ -135,11 +136,11 @@
     applyingCloudSave = true;
     try {
       Object.keys(localStorage)
-        .filter(key => key.startsWith("tp-"))
+        .filter(key => key.startsWith(SAVE_PREFIX))
         .forEach(key => nativeRemoveItem.call(localStorage, key));
 
       Object.entries(save?.values || {}).forEach(([key, value]) => {
-        if (key.startsWith("tp-") && typeof value === "string") {
+        if (key.startsWith(SAVE_PREFIX) && typeof value === "string") {
           nativeSetItem.call(localStorage, key, value);
         }
       });

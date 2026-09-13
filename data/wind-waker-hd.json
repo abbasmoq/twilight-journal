@@ -1,0 +1,224 @@
+{
+  "gameId": "wind-waker-hd",
+  "contentVersion": "1.0.0",
+  "chapters": [
+    {
+      "id": "ww-mq-01",
+      "title": "Outset Island",
+      "summaryFa": "روز تولد لینک و آغاز سفری که زندگی آرام جزیره را تغییر می‌دهد.",
+      "summaryEn": "Link's birthday begins a journey that changes the quiet island forever.",
+      "tasks": [
+        ["Hero's Clothes", "لباس قهرمان را از مادربزرگ دریافت کن.", "Receive the Hero's Clothes from Grandma."],
+        ["Hero's Sword", "تمرین اورکا را کامل کن و شمشیر قهرمان را بگیر.", "Complete Orca's training and obtain the Hero's Sword."],
+        ["Rescue Tetra", "به جنگل برو و تترا را نجات بده.", "Enter the forest and rescue Tetra."],
+        ["Leave Outset", "پس از ربوده‌شدن آریل، همراه دزدان دریایی راهی شو.", "After Aryll is taken, depart with the pirates."]
+      ]
+    },
+    {
+      "id": "ww-mq-02",
+      "title": "Forsaken Fortress",
+      "summaryFa": "بدون شمشیر و با مخفی‌کاری وارد دژ متروکه شو.",
+      "summaryEn": "Enter the fortress without your sword and rely on stealth.",
+      "tasks": [
+        ["Disable the Searchlights", "نگهبان‌های سه نورافکن را متوقف کن.", "Disable the three fortress searchlights."],
+        ["Recover the Sword", "در مسیر بالایی شمشیرت را پس بگیر.", "Recover your sword on the upper route."],
+        ["Reach Aryll", "خودت را به محل نگهداری آریل برسان.", "Reach the chamber where Aryll is held."]
+      ]
+    },
+    {
+      "id": "ww-mq-03",
+      "title": "Windfall Island",
+      "summaryFa": "قایق سخنگو را ملاقات کن و وسایل اولین سفر دریایی را آماده کن.",
+      "summaryEn": "Meet the talking boat and prepare for your first voyage.",
+      "tasks": [
+        ["Meet the King of Red Lions", "با پادشاه شیرهای سرخ آشنا شو.", "Meet the King of Red Lions."],
+        ["Free Tingle", "تینگل را از زندان آزاد کن و ابزار ارتباطی را بگیر.", "Free Tingle from jail and receive his communication item."],
+        ["Buy the Sail", "از زوناری بادبان قایق را خریداری کن.", "Purchase the Boat's Sail from Zunari."],
+        ["Set Sail", "به سوی Dragon Roost Island حرکت کن.", "Set sail for Dragon Roost Island."]
+      ]
+    },
+    {
+      "id": "ww-mq-04",
+      "title": "Dragon Roost Island",
+      "summaryFa": "با قبیلهٔ ریتو آشنا شو و مشکل والوی خشمگین را بررسی کن.",
+      "summaryEn": "Meet the Rito and investigate what is troubling Valoo.",
+      "tasks": [
+        ["Wind Waker", "چوب رهبری باد را دریافت کن و Wind's Requiem را یاد بگیر.", "Receive the Wind Waker and learn Wind's Requiem."],
+        ["Delivery Bag", "کیف نامه‌رسانی را از Quill بگیر.", "Receive the Delivery Bag from Quill."],
+        ["Help Medli", "مدلی را به ورودی غار پرتاب کن.", "Help Medli reach the cavern entrance."],
+        ["Enter the Cavern", "مسیر Dragon Roost Cavern را باز کن.", "Open the way into Dragon Roost Cavern."]
+      ]
+    },
+    {
+      "id": "ww-mq-05",
+      "title": "Dragon Roost Cavern",
+      "summaryFa": "اولین سیاه‌چال اصلی را فتح کن و والـو را نجات بده.",
+      "summaryEn": "Conquer the first major dungeon and save Valoo.",
+      "tasks": [
+        ["Grappling Hook", "مدلی را نجات بده و Grappling Hook را دریافت کن.", "Rescue Medli and obtain the Grappling Hook."],
+        ["Big Key", "کلید بزرگ اتاق باس را پیدا کن.", "Find the Big Key for the boss chamber."],
+        ["Defeat Gohma", "گوهمـا را شکست بده.", "Defeat Gohma."],
+        ["Din's Pearl", "مروارید دین را از کومالی دریافت کن.", "Receive Din's Pearl from Komali."]
+      ]
+    },
+    {
+      "id": "ww-mq-06",
+      "title": "Forest Haven",
+      "summaryFa": "به پناهگاه جنگل برو و برای نجات ماکار آماده شو.",
+      "summaryEn": "Reach the Forest Haven and prepare to rescue Makar.",
+      "tasks": [
+        ["Meet the Great Deku Tree", "دکو تری بزرگ را از چـوچوها نجات بده.", "Help the Great Deku Tree by clearing the ChuChus."],
+        ["Deku Leaf", "با بالا رفتن از Baba Budها، Deku Leaf را بگیر.", "Use the Baba Buds to obtain the Deku Leaf."],
+        ["Forbidden Woods", "با کنترل باد خودت را به جنگل ممنوعه برسان.", "Ride the wind to the Forbidden Woods."]
+      ]
+    },
+    {
+      "id": "ww-mq-07",
+      "title": "Forbidden Woods",
+      "summaryFa": "ماکار را از جنگل آلوده نجات بده و مروارید دوم را به‌دست بیاور.",
+      "summaryEn": "Rescue Makar from the corrupted forest and claim the second pearl.",
+      "tasks": [
+        ["Boomerang", "مینی‌باس را شکست بده و Boomerang را بگیر.", "Defeat the miniboss and obtain the Boomerang."],
+        ["Rescue Makar", "خودت را به ماکار در قلب سیاه‌چال برسان.", "Reach Makar deep inside the dungeon."],
+        ["Defeat Kalle Demos", "ریشه‌های باس را قطع کن و Kalle Demos را شکست بده.", "Cut the boss's vines and defeat Kalle Demos."],
+        ["Farore's Pearl", "مروارید فاروره را دریافت کن.", "Receive Farore's Pearl."]
+      ]
+    },
+    {
+      "id": "ww-mq-08",
+      "title": "Nayru's Pearl",
+      "summaryFa": "در دل طوفان به‌دنبال مروارید سوم بگرد.",
+      "summaryEn": "Search through the storm for the third pearl.",
+      "tasks": [
+        ["Greatfish Isle", "ویرانه‌های Greatfish Isle را بررسی کن.", "Investigate the ruins of Greatfish Isle."],
+        ["Pirate Password", "در Windfall رمز ورود به کشتی دزدان دریایی را پیدا کن.", "Learn the pirate ship password on Windfall."],
+        ["Bombs", "آزمون داخل کشتی را کامل کن و Bombs را بگیر.", "Complete the pirate ship challenge and obtain Bombs."],
+        ["Jabun", "در Outset Island با جابون ملاقات و مروارید نایرو را دریافت کن.", "Meet Jabun at Outset Island and receive Nayru's Pearl."]
+      ]
+    },
+    {
+      "id": "ww-mq-09",
+      "title": "Tower of the Gods",
+      "summaryFa": "مرواریدها را قرار بده و آزمون خدایان را کامل کن.",
+      "summaryEn": "Place the pearls and complete the gods' trial.",
+      "tasks": [
+        ["Raise the Tower", "سه مروارید را در جزیره‌های مثلثی قرار بده.", "Place the three pearls on the Triangle Islands."],
+        ["Command Melody", "آهنگ کنترل مجسمه‌ها را یاد بگیر.", "Learn the Command Melody."],
+        ["Hero's Bow", "Darknut را شکست بده و Hero's Bow را بگیر.", "Defeat the Darknut and obtain the Hero's Bow."],
+        ["Defeat Gohdan", "آزمون نهایی برج و باس Gohdan را کامل کن.", "Complete the tower's final trial and defeat Gohdan."]
+      ]
+    },
+    {
+      "id": "ww-mq-10",
+      "title": "Hyrule Castle",
+      "summaryFa": "به سرزمین فراموش‌شده زیر دریا وارد شو و شمشیر افسانه‌ای را بیدار کن.",
+      "summaryEn": "Enter the forgotten kingdom beneath the sea and awaken the legendary blade.",
+      "tasks": [
+        ["Solve the Triforce Puzzle", "معمای مجسمه‌های تریفورس را حل کن.", "Solve the Triforce statue puzzle."],
+        ["Master Sword", "Master Sword را از تالار اصلی بیرون بکش.", "Draw the Master Sword from the great hall."],
+        ["Clear the Castle", "دشمنان آزادشده در قلعه را شکست بده.", "Defeat the enemies released inside the castle."],
+        ["Return to the Fortress", "برای نجات آریل دوباره به Forsaken Fortress برو.", "Return to the Forsaken Fortress to rescue Aryll."]
+      ]
+    },
+    {
+      "id": "ww-mq-11",
+      "title": "Earth Temple",
+      "summaryFa": "قدرت ازدست‌رفتهٔ شمشیر را با کمک مدلی بازگردان.",
+      "summaryEn": "Restore the sword's lost power with Medli's help.",
+      "tasks": [
+        ["Power Bracelets", "در Fire Mountain دستبند قدرت را پیدا کن.", "Find the Power Bracelets on Fire Mountain."],
+        ["Earth God's Lyric", "آهنگ معبد زمین را یاد بگیر و مدلی را بیدار کن.", "Learn the Earth God's Lyric and awaken Medli."],
+        ["Mirror Shield", "در معبد Mirror Shield را به‌دست بیاور.", "Obtain the Mirror Shield inside the temple."],
+        ["Defeat Jalhalla", "Jalhalla را شکست بده و بخشی از قدرت شمشیر را برگردان.", "Defeat Jalhalla and restore part of the sword's power."]
+      ]
+    },
+    {
+      "id": "ww-mq-12",
+      "title": "Wind Temple",
+      "summaryFa": "با ماکار وارد معبد باد شو و قدرت Master Sword را کامل کن.",
+      "summaryEn": "Enter the Wind Temple with Makar and fully restore the Master Sword.",
+      "tasks": [
+        ["Iron Boots", "در Ice Ring Isle چکمه‌های آهنی را پیدا کن.", "Find the Iron Boots on Ice Ring Isle."],
+        ["Wind God's Aria", "آهنگ معبد باد را یاد بگیر و ماکار را بیدار کن.", "Learn the Wind God's Aria and awaken Makar."],
+        ["Hookshot", "Wizzrobe را شکست بده و Hookshot را بگیر.", "Defeat the Wizzrobe and obtain the Hookshot."],
+        ["Defeat Molgera", "Molgera را شکست بده و قدرت شمشیر را کامل کن.", "Defeat Molgera and fully restore the Master Sword."]
+      ]
+    },
+    {
+      "id": "ww-mq-13",
+      "title": "The Triforce",
+      "summaryFa": "قطعات تریفورس شجاعت را در سراسر دریای بزرگ جمع‌آوری کن.",
+      "summaryEn": "Gather the Triforce of Courage shards across the Great Sea.",
+      "tasks": [
+        ["Triforce Charts", "سه Triforce Chart نسخهٔ HD را پیدا کن.", "Find the three Triforce Charts used in the HD version."],
+        ["Decode the Charts", "چارت‌ها را نزد تینگل رمزگشایی کن.", "Have Tingle decipher the charts."],
+        ["Eight Shards", "هر هشت قطعهٔ Triforce of Courage را جمع کن.", "Collect all eight Triforce of Courage shards."],
+        ["Return to Hyrule", "تریفورس کامل را نزد پادشاه ببر.", "Take the completed Triforce back to the king."]
+      ]
+    },
+    {
+      "id": "ww-mq-14",
+      "title": "Ganon's Tower",
+      "summaryFa": "آخرین مسیر را طی کن و برای نبرد نهایی آماده شو.",
+      "summaryEn": "Complete the final path and prepare for the last battle.",
+      "tasks": [
+        ["Break the Barrier", "با Master Sword مانع مقابل قلعه را نابود کن.", "Use the Master Sword to break the castle barrier."],
+        ["Defeat the Four Guardians", "نسخه‌های باس‌های چهار مسیر برج را شکست بده.", "Defeat the four guardian bosses inside the tower."],
+        ["Phantom Ganon", "مسیر شمشیرها را دنبال و Phantom Ganon را شکست بده.", "Follow the sword trail and defeat Phantom Ganon."],
+        ["Final Battle", "در کنار زلدا با گنون روبه‌رو شو و سفر را تمام کن.", "Face Ganon alongside Zelda and finish the journey."]
+      ]
+    }
+  ],
+  "sideQuests": [
+    ["sq-killer-bees", "Killer Bees", "بازی قایم‌باشک کودکان Windfall را کامل کن.", "Complete the children's hide-and-seek game on Windfall.", 3],
+    ["sq-picto-box", "Picto Box", "تینگل را آزاد کن و Picto Box را از تونل زندان پیدا کن.", "Free Tingle and find the Picto Box through the jail tunnel.", 3],
+    ["sq-deluxe-picto", "Deluxe Picto Box", "آزمون‌های لنزو را انجام بده و دوربین رنگی را باز کن.", "Complete Lenzo's tasks and unlock the color Picto Box.", 3],
+    ["sq-mrs-marie", "Mrs. Marie's Joy Pendants", "Joy Pendantها را به معلم Windfall تحویل بده.", "Give Joy Pendants to Windfall's teacher.", 3],
+    ["sq-mila", "Mila's New Life", "حرکت‌های شبانهٔ میلا را دنبال کن و تصمیم درست بگیر.", "Follow Mila at night and make the right choice.", 8],
+    ["sq-maggie", "Maggie's Letter", "نامهٔ مگی و موبلین را به مقصد برسان.", "Help deliver the letters between Maggie and the Moblin.", 10],
+    ["sq-auction", "Windfall Auction", "در حراج شبانه چند جایزهٔ مهم را برنده شو.", "Win the important prizes at the nightly auction.", 3],
+    ["sq-battleship", "Sinking Ships", "بازی کشتی‌های غرق‌شدهٔ سالواتوره را کامل کن.", "Complete Salvatore's sinking-ships minigame.", 3],
+    ["sq-trading", "Island Trading Sequence", "کالاهای زوناری را میان بازرگانان جزیره‌ها معامله کن.", "Trade Zunari's goods with merchants across the islands.", 8],
+    ["sq-decorate", "Decorate Windfall", "پایه‌های شهر را با گل‌ها و مجسمه‌های معامله‌شده تزئین کن.", "Decorate the town stands with traded flowers and statues.", 8],
+    ["sq-cabana", "Private Oasis Cabana", "اعتماد Mrs. Marie را جلب کن و Cabana Deed را بگیر.", "Earn Mrs. Marie's trust and receive the Cabana Deed.", 8],
+    ["sq-savage", "Savage Labyrinth", "طبقات مبارزهٔ مخفی زیر Outset Island را پشت سر بگذار.", "Survive the hidden battle floors beneath Outset Island.", 10],
+    ["sq-orca", "Orca's Training", "رکورد ضربه‌های تمرینی اورکا را افزایش بده.", "Raise your hit record during Orca's training.", 1],
+    ["sq-withered", "Withered Korok Trees", "آب Forest Haven را در زمان محدود به هشت درخت برسان.", "Bring Forest Haven water to all eight withered trees in time.", 8],
+    ["sq-nintendo-gallery", "Nintendo Gallery", "با عکس‌برداری، مجموعهٔ مجسمه‌های گالری را کامل کن.", "Use pictographs to complete the gallery's figurine collection.", 7],
+    ["sq-big-octos", "Big Octos", "Big Octoهای پنهان در دریای بزرگ را پیدا و شکست بده.", "Find and defeat the hidden Big Octos across the Great Sea.", 9]
+  ],
+  "equipment": [
+    ["eq-sword", "Hero's Sword", "weapon", "شمشیر اولیهٔ لینک.", "Link's first sword."],
+    ["eq-master-sword", "Master Sword", "weapon", "شمشیر افسانه‌ای؛ قدرت آن در ادامه بازمی‌گردد.", "The legendary blade; its power is restored later."],
+    ["eq-shield", "Hero's Shield", "shield", "سپر خانوادگی لینک.", "Link's family shield."],
+    ["eq-mirror", "Mirror Shield", "shield", "نور و پرتوها را بازتاب می‌دهد.", "Reflects light and magical beams."],
+    ["eq-telescope", "Telescope", "tool", "برای دیدن جزیره‌ها و هدف‌های دور.", "Used to inspect distant islands and targets."],
+    ["eq-wind-waker", "Wind Waker", "tool", "باد و ملودی‌های باستانی را هدایت می‌کند.", "Conducts the wind and ancient melodies."],
+    ["eq-grappling", "Grappling Hook", "tool", "برای تاب‌خوردن و بیرون‌کشیدن گنج‌های دریا.", "Used for swinging and salvaging treasure."],
+    ["eq-deku-leaf", "Deku Leaf", "tool", "امکان پرواز کوتاه و ایجاد باد را می‌دهد.", "Allows gliding and creates gusts of wind."],
+    ["eq-boomerang", "Boomerang", "weapon", "چند هدف را هم‌زمان نشانه می‌گیرد.", "Targets several objects at once."],
+    ["eq-bombs", "Bombs", "weapon", "موانع و دیواره‌های ترک‌خورده را منفجر می‌کند.", "Destroys obstacles and cracked walls."],
+    ["eq-bow", "Hero's Bow", "weapon", "سلاح دوربرد اصلی لینک.", "Link's primary ranged weapon."],
+    ["eq-fire-ice", "Fire & Ice Arrows", "weapon", "قدرت‌های آتش و یخ را به تیرها اضافه می‌کند.", "Adds fire and ice power to arrows."],
+    ["eq-light", "Light Arrows", "weapon", "نیروی نور برای دشمنان تاریکی.", "Channels light against dark enemies."],
+    ["eq-hammer", "Skull Hammer", "weapon", "کلیدها و موانع سنگین را خرد می‌کند.", "Smashes heavy switches and obstacles."],
+    ["eq-hookshot", "Hookshot", "tool", "لینک را به هدف‌های مشخص می‌کشد.", "Pulls Link toward valid targets."],
+    ["eq-boots", "Iron Boots", "gear", "در برابر باد شدید مقاومت ایجاد می‌کند.", "Keeps Link grounded against powerful wind."],
+    ["eq-bracelets", "Power Bracelets", "gear", "توان بلندکردن اجسام بسیار سنگین را می‌دهد.", "Allows Link to lift extremely heavy objects."],
+    ["eq-magic-armor", "Magic Armor", "gear", "با مصرف جادو یا روپیه از لینک محافظت می‌کند.", "Protects Link by consuming magic or Rupees."],
+    ["eq-heros-charm", "Hero's Charm", "gear", "میزان سلامتی دشمن را نمایش می‌دهد.", "Reveals an enemy's remaining health."],
+    ["eq-swift-sail", "Swift Sail", "gear", "ویژهٔ نسخهٔ HD؛ سرعت قایق را بیشتر می‌کند.", "HD exclusive; increases sailing speed."],
+    ["eq-spoils-bag", "Spoils Bag", "bag", "غنیمت‌های دشمنان را نگهداری می‌کند.", "Stores spoils dropped by enemies."],
+    ["eq-bait-bag", "Bait Bag", "bag", "طعمه و Hyoi Pear را حمل می‌کند.", "Carries bait and Hyoi Pears."],
+    ["eq-delivery-bag", "Delivery Bag", "bag", "نامه‌ها و کالاهای معامله‌ای را نگه می‌دارد.", "Stores letters and trading goods."],
+    ["eq-picto", "Deluxe Picto Box", "tool", "عکس‌های رنگی برای مأموریت‌ها و گالری می‌گیرد.", "Takes color pictographs for quests and the gallery."]
+  ],
+  "songs": [
+    ["song-wind", "Wind's Requiem", "جهت باد را تغییر می‌دهد.", "Changes the wind's direction."],
+    ["song-command", "Command Melody", "کنترل همراهان و مجسمه‌ها را ممکن می‌کند.", "Allows control of companions and statues."],
+    ["song-passing", "Song of Passing", "روز و شب را جابه‌جا می‌کند.", "Moves time between day and night."],
+    ["song-ballad", "Ballad of Gales", "سفر سریع میان نقاط مشخص دریا را ممکن می‌کند.", "Enables fast travel across the Great Sea."],
+    ["song-earth", "Earth God's Lyric", "مُهر معبد زمین را باز می‌کند.", "Opens the way to the Earth Temple."],
+    ["song-wind-god", "Wind God's Aria", "مُهر معبد باد را باز می‌کند.", "Opens the way to the Wind Temple."]
+  ]
+}

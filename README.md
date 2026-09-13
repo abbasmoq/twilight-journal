@@ -1,39 +1,41 @@
-# Twilight Journal
+# Adventure Journals
 
-A lightweight, bilingual, spoiler-conscious adventure journal for **The Legend of Zelda: Twilight Princess HD**.
+A lightweight, bilingual, spoiler-conscious game progress tracker.
 
-یک دفترچهٔ دوزبانه و آفلاین برای ثبت پیشرفت در بازی **The Legend of Zelda: Twilight Princess HD**.
+یک دفترچهٔ دوزبانه و سبک برای ثبت پیشرفت، مأموریت‌ها و خاطرات بازی.
 
 ## Live App
 
 **https://abbasmoq.github.io/twilight-journal/**
 
+## Supported Games
+
+- The Legend of Zelda: Twilight Princess HD
+- The Legend of Zelda: The Wind Waker HD
+
+Open the game selector from the controller button at the top of either journal.
+
 ## Features
 
-- Main Journey chapters with gradual unlocking
-- Side quests and equipment catalog
-- Complete Persian and English modes with instant FA / EN switching
-- Persian descriptions with original English quest and item names
-- Hearts, play sessions, notes, and personal goals
-- Local progress saved in the browser
-- Mobile-friendly and offline-first design
+- Progressive Main Journey chapters
+- Side quests, equipment, collectibles, and notes
+- Persian and English interfaces
+- Separate local saves for every game
+- Optional username/password accounts
+- Supabase Cloud Save across mobile and desktop
+- Guest mode without an account
+- Mobile-friendly design
 
-## Language
+## Privacy
 
-Use the **FA / EN** button at the top of the app to switch languages. Your choice is saved automatically, and changing language does not affect your game progress.
+No real email address is requested by the app. Guest progress stays in the browser. Account saves are protected by Supabase Row Level Security so each signed-in user can access only their own records.
 
 ## Run locally
-
-From the project folder, run:
 
 ```bash
 python3 -m http.server 8080
 ```
 
 Then open `http://127.0.0.1:8080`.
-
-## Privacy
-
-Progress is stored locally in the browser using `localStorage`. No account or server is required.
 
 > This is an unofficial fan-made project and is not affiliated with Nintendo.
