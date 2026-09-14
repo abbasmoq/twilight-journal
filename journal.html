@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101720">
+  <title>Adventure Journal</title>
+  <style>
+    :root{--gold:#e9c96d;--green:#62d7a4;--text:#f3efe5;--muted:#a2abb0;--panel:rgba(12,18,27,.83);--border:rgba(233,201,109,.21)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--text);font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 50% 0,#2b4355 0,transparent 36%),linear-gradient(155deg,#101821,#05080d 72%);overflow-x:hidden}.hero{position:relative;min-height:68vh;padding:75px 20px 50px;display:grid;place-items:center;text-align:center}.theme-button,.language-button{position:absolute;top:20px;height:46px;border:1px solid var(--border);border-radius:23px;color:var(--gold);background:var(--panel);z-index:2}.theme-button{left:20px;width:46px;border-radius:50%}.language-button{right:20px;width:50px}.game-cover{width:130px;height:175px;object-fit:cover;border:1px solid var(--border);border-radius:18px;box-shadow:0 18px 50px rgba(0,0,0,.4)}.game-cover.empty{height:130px;display:grid;place-items:center;font-size:50px}.eyebrow{margin-top:18px;color:var(--green);letter-spacing:4px;font-size:11px}h1{max-width:780px;margin:9px auto;color:var(--gold);font:clamp(37px,9vw,68px) Georgia,serif;font-weight:normal}.subtitle{max-width:620px;margin:auto;color:var(--muted);line-height:1.9}.container{width:min(100% - 20px,920px);margin:auto;padding-bottom:60px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{padding:20px;border:1px solid var(--border);border-radius:22px;background:var(--panel);box-shadow:0 18px 55px rgba(0,0,0,.2)}.wide{grid-column:1/-1}.card h2{margin:0 0 15px;color:var(--gold);font:23px Georgia,serif}.progress{color:var(--gold);font:48px Georgia,serif}.bar{height:8px;overflow:hidden;border-radius:10px;background:rgba(255,255,255,.1)}.bar span{display:block;width:0;height:100%;background:linear-gradient(90deg,var(--green),var(--gold));transition:.3s}.stats{display:flex;justify-content:space-around;text-align:center}.stats strong{display:block;color:var(--gold);font:31px Georgia,serif}.small{color:var(--muted);font-size:12px;line-height:1.7}.action{width:100%;margin-top:10px;padding:12px;border:0;border-radius:11px;color:#17140b;background:linear-gradient(135deg,#f3da82,#b68c32);font-weight:bold}.section-item{margin-top:10px;padding:14px;border:1px solid var(--border);border-radius:15px;background:rgba(0,0,0,.1)}.section-item h3{margin:0 0 7px;color:var(--gold);font:18px Georgia,serif;direction:ltr;text-align:left}.section-item p{margin:5px 0;color:var(--muted);font-size:12px;line-height:1.75}.task,.check{display:flex;align-items:flex-start;gap:9px;padding:9px 0;border-top:1px solid var(--border)}.task input,.check input{width:18px;height:18px;accent-color:var(--green)}.task strong{display:block;direction:ltr;text-align:left}.task span{color:var(--muted);font-size:11px;line-height:1.6}.status{width:100%;margin-top:8px;padding:9px;border:1px solid var(--border);border-radius:9px;color:var(--text);background:#15212b}.counter{display:flex;align-items:center;justify-content:space-between;margin-top:10px}.counter button{width:35px;height:35px;border:1px solid var(--border);border-radius:50%;color:var(--text);background:transparent}.counter strong{color:var(--gold)}textarea{width:100%;min-height:140px;padding:14px;border:1px solid var(--border);border-radius:12px;color:var(--text);background:rgba(0,0,0,.16);font:inherit;line-height:1.8}footer{text-align:center;padding:24px;color:var(--muted);font-size:11px}.loading{min-height:70vh;display:grid;place-items:center;color:var(--muted)}body.light{--text:#1b2b2f;--muted:#53656a;--panel:rgba(235,241,229,.86);--border:rgba(50,80,75,.24);background:linear-gradient(155deg,#b8dde0,#719bad)}body.light .status{color:#1b2b2f;background:#e8eee5}@media(max-width:650px){.grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+  </style>
+</head>
+<body>
+  <div class="loading" id="loading">Loading Journal…</div>
+  <div id="page" hidden>
+    <header class="hero">
+      <button class="theme-button" id="themeButton">☾</button><button class="language-button" id="languageButton">EN</button>
+      <div><div id="cover"></div><div class="eyebrow">ADVENTURE JOURNAL</div><h1 id="title"></h1><p class="subtitle" id="description"></p></div>
+    </header>
+    <main class="container"><section class="grid">
+      <article class="card"><h2 id="progressTitle">پیشرفت سفر</h2><div class="progress"><span id="progress">0</span>%</div><div class="bar"><span id="progressBar"></span></div></article>
+      <article class="card"><h2 id="statsTitle">آمار سفر</h2><div class="stats"><div><strong id="sessions">0</strong><span class="small" id="sessionLabel">جلسه</span></div><div><strong id="hearts">3</strong><span class="small" id="heartLabel">قلب</span></div></div><button class="action" id="addSession">+ جلسه جدید</button><button class="action" id="addHeart">♥ افزودن قلب</button></article>
+      <article class="card wide"><h2>Main Journey</h2><div id="chapters"></div></article>
+      <article class="card wide"><h2>Side Quests</h2><div id="sideQuests"></div></article>
+      <article class="card wide"><h2>Equipment</h2><div id="equipment"></div></article>
+      <article class="card wide"><h2>Collectibles</h2><div id="collectibles"></div></article>
+      <article class="card wide"><h2 id="notesTitle">یادداشت‌ها</h2><textarea id="notes"></textarea></article>
+    </section></main><footer>Adventure Journals • Community-built game tracker</footer>
+  </div>
+  <script>
+    (()=>{const slug=new URLSearchParams(location.search).get("game")||"unknown";document.body.dataset.gameId="journal-"+slug;document.body.dataset.savePrefix="gj-"+slug+"-"})();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="journal.js?v=1"></script>
+  <script src="auth.js?v=4"></script>
+  <script src="game-switcher.js?v=1"></script>
+</body>
+</html>
