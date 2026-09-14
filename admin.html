@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a1119">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Adventure Journals — Admin</title>
+  <style>
+    :root{--gold:#e9c96d;--green:#62d7a4;--blue:#6dcce5;--red:#ff8d91;--text:#f3efe5;--muted:#9ca8ae;--panel:rgba(13,20,29,.86);--border:rgba(233,201,109,.2);--input:#101923}
+    *{box-sizing:border-box}html{min-height:100%;background:#080d13}body{margin:0;min-height:100vh;color:var(--text);font-family:Tahoma,Arial,sans-serif;background:radial-gradient(circle at 85% 0,#183c4d 0,transparent 34%),radial-gradient(circle at 10% 55%,#18382f 0,transparent 28%),linear-gradient(150deg,#101720,#05080d 72%)}
+    button,input,select,textarea{font:inherit}.hidden{display:none!important}.shell{width:min(100% - 24px,1100px);margin:auto;padding:18px 0 60px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0 24px}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:43px;height:43px;display:grid;place-items:center;border:1px solid var(--border);border-radius:14px;color:var(--gold);background:var(--panel)}.brand h1{margin:0;font:23px Georgia,serif}.brand small{color:var(--muted)}.top-actions{display:flex;gap:8px}.icon-button{padding:10px 13px;border:1px solid var(--border);border-radius:12px;color:var(--text);background:var(--panel);cursor:pointer;text-decoration:none}.danger{color:var(--red)!important}
+    .gate{width:min(100%,430px);margin:10vh auto 0;padding:27px;border:1px solid var(--border);border-radius:24px;background:var(--panel);box-shadow:0 28px 80px rgba(0,0,0,.35)}.gate h2{margin:0 0 9px;color:var(--gold);font:28px Georgia,serif}.gate p{color:var(--muted);font-size:13px;line-height:1.8}.field{display:grid;gap:7px;margin:12px 0}.field label{color:var(--muted);font-size:12px}.field input,.field textarea{width:100%;padding:12px 13px;border:1px solid var(--border);border-radius:11px;outline:0;color:var(--text);background:var(--input)}.field input:focus,.field textarea:focus{border-color:var(--gold)}.primary{width:100%;padding:13px;border:0;border-radius:12px;color:#17140b;background:linear-gradient(135deg,#f4dc84,#b68c32);font-weight:bold;cursor:pointer}.message{min-height:20px;margin-top:12px;color:var(--green);font-size:12px}.message.error{color:var(--red)}
+    .welcome{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin:13px 0 22px}.welcome h2{margin:0;color:var(--gold);font:clamp(30px,6vw,46px) Georgia,serif}.welcome p{margin:7px 0 0;color:var(--muted);line-height:1.7}.admin-badge{padding:9px 13px;border:1px solid rgba(98,215,164,.3);border-radius:999px;color:var(--green);background:rgba(98,215,164,.08);font-size:12px}
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}.stat{padding:18px;border:1px solid var(--border);border-radius:18px;background:var(--panel)}.stat strong{display:block;color:var(--gold);font:31px Georgia,serif}.stat span{color:var(--muted);font-size:12px}.panel{margin-top:15px;padding:19px;border:1px solid var(--border);border-radius:21px;background:var(--panel)}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.panel h3{margin:0;color:var(--gold);font:22px Georgia,serif}.api-state{color:var(--muted);font-size:12px}.tabs{display:flex;gap:7px;overflow-x:auto;margin:16px 0 13px}.tab{padding:9px 13px;border:1px solid var(--border);border-radius:999px;color:var(--muted);background:transparent;white-space:nowrap;cursor:pointer}.tab.active{border-color:var(--gold);color:#15150f;background:var(--gold)}.candidate-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.candidate{display:grid;grid-template-columns:105px 1fr;min-width:0;overflow:hidden;border:1px solid var(--border);border-radius:17px;background:rgba(0,0,0,.12)}.cover{width:105px;height:100%;min-height:160px;object-fit:cover;background:#17232d}.cover-placeholder{display:grid;place-items:center;font-size:34px;color:var(--muted)}.candidate-body{min-width:0;padding:14px}.candidate h4{margin:0 0 7px;direction:ltr;text-align:left;color:var(--gold);font:20px Georgia,serif;overflow-wrap:anywhere}.meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}.chip{padding:4px 7px;border-radius:999px;color:var(--blue);background:rgba(109,204,229,.09);font-size:10px}.candidate p{margin:7px 0;color:var(--muted);font-size:11px;line-height:1.65}.candidate-actions{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}.small-button{flex:1;padding:8px;border:1px solid var(--border);border-radius:9px;color:var(--text);background:transparent;cursor:pointer;font-size:11px}.approve{color:var(--green)}.reject{color:var(--red)}.empty{grid-column:1/-1;padding:35px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:15px}.manual-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.manual-grid .wide{grid-column:1/-1}
+    @media(max-width:750px){.stats{grid-template-columns:repeat(2,1fr)}.candidate-grid{grid-template-columns:1fr}.welcome{align-items:flex-start;flex-direction:column}.topbar{align-items:flex-start}.brand small{display:none}}@media(max-width:430px){.shell{width:calc(100% - 18px)}.candidate{grid-template-columns:84px 1fr}.cover{width:84px}.manual-grid{grid-template-columns:1fr}.manual-grid .wide{grid-column:auto}.top-actions .label{display:none}}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><div class="brand-mark">△</div><div><h1>Journal Admin</h1><small>Adventure Journals Control Room</small></div></div>
+      <div class="top-actions"><a class="icon-button" href="games.html">🎮 <span class="label">Games</span></a><button class="icon-button" id="languageButton">EN</button><button class="icon-button danger hidden" id="logoutButton">خروج</button></div>
+    </header>
+
+    <section class="gate" id="loginGate">
+      <h2 data-t="loginTitle">ورود مدیر</h2><p data-t="loginHelp">با همان حساب Adventure Journals وارد شو. فقط حساب مدیر اجازهٔ ورود دارد.</p>
+      <div class="field"><label data-t="username">نام کاربری انگلیسی</label><input id="username" type="text" autocomplete="username" maxlength="24" dir="ltr"></div>
+      <div class="field"><label data-t="password">رمز عبور</label><input id="password" type="password" autocomplete="current-password" minlength="6" dir="ltr"></div>
+      <button class="primary" id="loginButton" data-t="signIn">ورود به پنل</button><p class="message" id="loginMessage"></p>
+    </section>
+
+    <section class="gate hidden" id="deniedGate"><h2 data-t="deniedTitle">دسترسی مجاز نیست</h2><p data-t="deniedHelp">این حساب در فهرست مدیران نیست.</p><button class="primary" id="deniedLogout" data-t="tryAnother">ورود با حساب دیگر</button></section>
+
+    <main class="hidden" id="adminApp">
+      <section class="welcome"><div><h2 data-t="dashboard">Dashboard</h2><p data-t="welcome">پیشنهادهای بازی و محتوای آینده را مدیریت کن.</p></div><span class="admin-badge" id="adminName">Administrator</span></section>
+      <section class="stats">
+        <article class="stat"><strong id="pendingCount">0</strong><span data-t="pending">Pending</span></article><article class="stat"><strong id="approvedCount">0</strong><span data-t="approved">Approved</span></article><article class="stat"><strong id="rejectedCount">0</strong><span data-t="rejected">Rejected</span></article><article class="stat"><strong id="totalCount">0</strong><span data-t="total">Total</span></article>
+      </section>
+      <section class="panel">
+        <div class="panel-head"><h3 data-t="candidates">Game Candidates</h3><span class="api-state" id="apiState" data-t="apiWaiting">RAWG API هنوز متصل نشده است.</span></div>
+        <div class="tabs"><button class="tab active" data-status="pending" data-t="pending">Pending</button><button class="tab" data-status="approved" data-t="approved">Approved</button><button class="tab" data-status="rejected" data-t="rejected">Rejected</button><button class="tab" data-status="all" data-t="all">All</button></div>
+        <div class="candidate-grid" id="candidateGrid"></div>
+      </section>
+      <section class="panel">
+        <div class="panel-head"><h3 data-t="manualAdd">افزودن دستی بازی</h3><span class="api-state" data-t="manualHelp">بازی ابتدا وارد Pending می‌شود.</span></div>
+        <form id="manualForm"><div class="manual-grid">
+          <div class="field"><label data-t="gameTitle">نام بازی *</label><input id="gameTitle" required dir="ltr"></div><div class="field"><label data-t="coverUrl">لینک تصویر</label><input id="coverUrl" type="url" dir="ltr"></div><div class="field"><label data-t="releaseDate">تاریخ انتشار</label><input id="releaseDate" type="date" dir="ltr"></div><div class="field"><label>Metacritic</label><input id="metacritic" type="number" min="0" max="100" dir="ltr"></div><div class="field wide"><label data-t="description">توضیح کوتاه</label><textarea id="description" rows="3"></textarea></div>
+        </div><button class="primary" type="submit" data-t="addPending">افزودن به Pending</button><p class="message" id="manualMessage"></p></form>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="admin.js?v=1"></script>
+</body>
+</html>
