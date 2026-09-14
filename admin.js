@@ -220,7 +220,7 @@
   }
 
   async function candidateAction(id, action) {
-    if (action === "build") return alert(t("coming"));
+    if (action === "build") return window.openJournalBuilder?.(id);
 
     if (action === "delete") {
       if (!confirm(t("confirmDelete"))) return;
