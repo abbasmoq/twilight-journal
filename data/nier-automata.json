@@ -827,9 +827,9 @@
     {
       "id": "wp-1",
       "name": "Bare Fists",
-      "group": "Small Sword",
-      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
-      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+      "group": "Combat Bracer",
+      "fa": "این حالت مبارزه از گروه Combat Bracer را در دفترچه ثبت کن.",
+      "en": "Track this default Combat Bracer fighting style."
     },
     {
       "id": "wp-2",
@@ -1460,4 +1460,3 @@
     }
   ]
 }
-
