@@ -1,0 +1,1463 @@
+{
+  "chapters": [
+    {
+      "en": "First descent and introduction to YoRHa operations.",
+      "fa": "فرود نخست و آشنایی با ساختار عملیات YoRHa.",
+      "id": "ch-1",
+      "tasks": [
+        {
+          "en": "Complete the opening factory operation.",
+          "fa": "عملیات آغازین کارخانه را کامل کن.",
+          "id": "a",
+          "title": "Abandoned Factory"
+        },
+        {
+          "en": "Report back and prepare your unit.",
+          "fa": "گزارش بده و واحدت را آماده کن.",
+          "id": "b",
+          "title": "Bunker Check-in"
+        }
+      ],
+      "title": "Prologue: YoRHa"
+    },
+    {
+      "en": "Meet the Resistance and begin surface assignments.",
+      "fa": "تماس با نیروهای مقاومت و آغاز مأموریت‌های زمینی.",
+      "id": "ch-2",
+      "tasks": [
+        {
+          "en": "Reach and survey the city ruins.",
+          "fa": "به ویرانه‌های شهر برس و محیط را بررسی کن.",
+          "id": "a",
+          "title": "City Ruins"
+        },
+        {
+          "en": "Complete the Resistance Camp introduction.",
+          "fa": "معرفی کمپ مقاومت را کامل کن.",
+          "id": "b",
+          "title": "Camp Request"
+        }
+      ],
+      "title": "Resistance Camp"
+    },
+    {
+      "en": "Investigate unusual machine activity in the desert.",
+      "fa": "ردیابی فعالیت غیرعادی ماشین‌ها در بیابان.",
+      "id": "ch-3",
+      "tasks": [
+        {
+          "en": "Follow the signals into the desert.",
+          "fa": "سیگنال‌ها را در منطقهٔ بیابانی دنبال کن.",
+          "id": "a",
+          "title": "Desert Zone"
+        },
+        {
+          "en": "Finish the major desert encounter.",
+          "fa": "رویارویی اصلی بیابان را پشت سر بگذار.",
+          "id": "b",
+          "title": "Unknown Lifeforms"
+        }
+      ],
+      "title": "Adam and Eve"
+    },
+    {
+      "en": "A strange signal leads toward the amusement park.",
+      "fa": "یک سیگنال مرموز مسیر را به شهربازی می‌کشاند.",
+      "id": "ch-4",
+      "tasks": [
+        {
+          "en": "Explore the amusement park route.",
+          "fa": "مسیر شهربازی را کشف کن.",
+          "id": "a",
+          "title": "Amusement Park"
+        },
+        {
+          "en": "Complete the theater operation.",
+          "fa": "عملیات سالن نمایش را کامل کن.",
+          "id": "b",
+          "title": "Stage Encounter"
+        }
+      ],
+      "title": "The Mad Songstress"
+    },
+    {
+      "en": "Investigate a massive crater and its underground paths.",
+      "fa": "بررسی یک شکاف عظیم و مسیرهای زیرزمینی.",
+      "id": "ch-5",
+      "tasks": [
+        {
+          "en": "Descend into the newly opened area.",
+          "fa": "وارد منطقهٔ تازه‌شدهٔ شهر شو.",
+          "id": "a",
+          "title": "City Crater"
+        },
+        {
+          "en": "Recover the underground intel.",
+          "fa": "اطلاعات بخش زیرزمینی را به دست بیاور.",
+          "id": "b",
+          "title": "Underground Intel"
+        }
+      ],
+      "title": "Excavated Land"
+    },
+    {
+      "en": "Travel to the forest kingdom and its forgotten castle.",
+      "fa": "سفر به قلمروی جنگلی و قلعهٔ فراموش‌شده.",
+      "id": "ch-6",
+      "tasks": [
+        {
+          "en": "Cross the forest kingdom.",
+          "fa": "از قلمروی جنگلی عبور کن.",
+          "id": "a",
+          "title": "Forest Kingdom"
+        },
+        {
+          "en": "Complete the castle objective.",
+          "fa": "هدف اصلی قلعه را کامل کن.",
+          "id": "b",
+          "title": "Castle Objective"
+        }
+      ],
+      "title": "King of the Forest"
+    },
+    {
+      "en": "An operation that complicates the line between androids and machines.",
+      "fa": "مأموریتی که رابطهٔ اندرویدها و ماشین‌ها را پیچیده‌تر می‌کند.",
+      "id": "ch-7",
+      "tasks": [
+        {
+          "en": "Follow the village request.",
+          "fa": "درخواست دهکده را دنبال کن.",
+          "id": "a",
+          "title": "Report to Pascal"
+        },
+        {
+          "en": "Complete the flooded-city operation.",
+          "fa": "عملیات شهر سیلابی را کامل کن.",
+          "id": "b",
+          "title": "Flooded City"
+        }
+      ],
+      "title": "Lost Child"
+    },
+    {
+      "en": "Search for a missing unit in an unfamiliar place.",
+      "fa": "جست‌وجو برای یافتن واحد گمشده در مکانی ناشناخته.",
+      "id": "ch-8",
+      "tasks": [
+        {
+          "en": "Use the scanner to follow the trail.",
+          "fa": "با Scanner رد هدف را دنبال کن.",
+          "id": "a",
+          "title": "Scanner Search"
+        },
+        {
+          "en": "Complete the rescue operation.",
+          "fa": "عملیات نجات را کامل کن.",
+          "id": "b",
+          "title": "Rescue Operation"
+        }
+      ],
+      "title": "Copied City"
+    },
+    {
+      "en": "An emergency message demands a return to a familiar place.",
+      "fa": "پیامی اضطراری، بازگشت به یک مکان آشنا را ضروری می‌کند.",
+      "id": "ch-9",
+      "tasks": [
+        {
+          "en": "Answer the urgent request.",
+          "fa": "به پیام اضطراری پاسخ بده.",
+          "id": "a",
+          "title": "Emergency Signal"
+        },
+        {
+          "en": "Survive the return operation.",
+          "fa": "عملیات بازگشت به کارخانه را تمام کن.",
+          "id": "b",
+          "title": "Factory Return"
+        }
+      ],
+      "title": "Deranged Religion"
+    },
+    {
+      "en": "The first route concludes, but the story does not.",
+      "fa": "پایان اولین دور؛ اما پایان داستان نیست.",
+      "id": "ch-10",
+      "tasks": [
+        {
+          "en": "Complete the final battle of Route A.",
+          "fa": "نبرد پایانی Route A را کامل کن.",
+          "id": "a",
+          "title": "Final Threat"
+        },
+        {
+          "en": "Reach Ending A and continue the save.",
+          "fa": "Ending A را بگیر و فایل را ادامه بده.",
+          "id": "b",
+          "title": "Ending A"
+        }
+      ],
+      "title": "Loss — Ending A"
+    },
+    {
+      "en": "Revisit familiar events from a new perspective and uncover hidden data.",
+      "fa": "رویدادهای آشنا را از دیدی تازه ببین و داده‌های پنهان را کشف کن.",
+      "id": "ch-11",
+      "tasks": [
+        {
+          "en": "Begin the next route as 9S.",
+          "fa": "مسیر تازه را با 9S آغاز کن.",
+          "id": "a",
+          "title": "New Perspective"
+        },
+        {
+          "en": "Explore the unique hacking stories.",
+          "fa": "داده‌ها و روایت‌های هک را بررسی کن.",
+          "id": "b",
+          "title": "Hacking Intel"
+        }
+      ],
+      "title": "Route B — 9S"
+    },
+    {
+      "en": "Old questions begin to receive unsettling answers.",
+      "fa": "پرسش‌های قدیمی اکنون جواب‌های تازه‌ای پیدا می‌کنند.",
+      "id": "ch-12",
+      "tasks": [
+        {
+          "en": "Follow the newly available records.",
+          "fa": "پرونده‌های تازه را دنبال کن.",
+          "id": "a",
+          "title": "Classified Records"
+        },
+        {
+          "en": "Complete Route B and keep going.",
+          "fa": "Route B و Ending B را کامل کن.",
+          "id": "b",
+          "title": "Ending B"
+        }
+      ],
+      "title": "Route B — Truth"
+    },
+    {
+      "en": "The next phase begins with a full-scale operation.",
+      "fa": "مرحلهٔ بعدی جنگ با یک عملیات گسترده آغاز می‌شود.",
+      "id": "ch-13",
+      "tasks": [
+        {
+          "en": "Start the third major route.",
+          "fa": "سومین مسیر اصلی را شروع کن.",
+          "id": "a",
+          "title": "Route C/D"
+        },
+        {
+          "en": "Complete the opening defense objectives.",
+          "fa": "اهداف دفاعی آغاز مسیر را کامل کن.",
+          "id": "b",
+          "title": "Defense Operation"
+        }
+      ],
+      "title": "Full-scale Attack"
+    },
+    {
+      "en": "A2 follows her own path through the desert.",
+      "fa": "A2 مسیر خودش را در سرزمین‌های خشک ادامه می‌دهد.",
+      "id": "ch-14",
+      "tasks": [
+        {
+          "en": "Complete A2's desert objective.",
+          "fa": "هدف بیابانی A2 را کامل کن.",
+          "id": "a",
+          "title": "A2 Operation"
+        },
+        {
+          "en": "Collect the available memory fragments.",
+          "fa": "تکه‌های خاطره را دنبال کن.",
+          "id": "b",
+          "title": "Past Fragments"
+        }
+      ],
+      "title": "Memories of Sand"
+    },
+    {
+      "en": "9S investigates one of the mysterious structures.",
+      "fa": "9S یکی از ساختارهای مرموز را بررسی می‌کند.",
+      "id": "ch-15",
+      "tasks": [
+        {
+          "en": "Enter the designated resource unit.",
+          "fa": "وارد Resource Unit مشخص‌شده شو.",
+          "id": "a",
+          "title": "Resource Unit"
+        },
+        {
+          "en": "Reach and clear its core.",
+          "fa": "به هسته برس و آن را پاک‌سازی کن.",
+          "id": "b",
+          "title": "Core Access"
+        }
+      ],
+      "title": "Meat Box"
+    },
+    {
+      "en": "Events at the village create a difficult test of choice.",
+      "fa": "رویدادهای دهکده آزمونی سخت برای انتخاب‌های شخصیت‌هاست.",
+      "id": "ch-16",
+      "tasks": [
+        {
+          "en": "Respond to the village signal.",
+          "fa": "به پیام دهکده پاسخ بده.",
+          "id": "a",
+          "title": "Village Signal"
+        },
+        {
+          "en": "Complete the chapter's decision.",
+          "fa": "انتخاب این بخش را انجام بده.",
+          "id": "b",
+          "title": "Make a Choice"
+        }
+      ],
+      "title": "Pascal's Despair"
+    },
+    {
+      "en": "The next structure reveals more layers of the network.",
+      "fa": "ساختار بعدی لایه‌های بیشتری از شبکه را آشکار می‌کند.",
+      "id": "ch-17",
+      "tasks": [
+        {
+          "en": "Explore the second resource unit.",
+          "fa": "Resource Unit دوم را بررسی کن.",
+          "id": "a",
+          "title": "Second Unit"
+        },
+        {
+          "en": "Finish its hacking sequence.",
+          "fa": "مراحل هک این بخش را کامل کن.",
+          "id": "b",
+          "title": "Recovered Data"
+        }
+      ],
+      "title": "Soul Box"
+    },
+    {
+      "en": "The route to the Tower continues through the final resource unit.",
+      "fa": "راه رسیدن به برج با آخرین واحد منبع ادامه پیدا می‌کند.",
+      "id": "ch-18",
+      "tasks": [
+        {
+          "en": "Clear the final resource unit.",
+          "fa": "آخرین Resource Unit را کامل کن.",
+          "id": "a",
+          "title": "Final Unit"
+        },
+        {
+          "en": "Open the path forward.",
+          "fa": "مسیر ورود به برج را باز کن.",
+          "id": "b",
+          "title": "Tower Access"
+        }
+      ],
+      "title": "God Box"
+    },
+    {
+      "en": "The final choice reveals two different conclusions.",
+      "fa": "انتخاب نهایی دو نتیجهٔ متفاوت را آشکار می‌کند.",
+      "id": "ch-19",
+      "tasks": [
+        {
+          "en": "Reach one side of the final choice.",
+          "fa": "یک سوی انتخاب نهایی را کامل کن.",
+          "id": "a",
+          "title": "Ending C"
+        },
+        {
+          "en": "Use Chapter Select to see the other side.",
+          "fa": "با Chapter Select سوی دیگر را هم ببین.",
+          "id": "b",
+          "title": "Ending D"
+        }
+      ],
+      "title": "The Tower — C & D"
+    },
+    {
+      "en": "After both conclusions, follow the Pods' final request.",
+      "fa": "پس از دیدن دو پایان، آخرین درخواست Podها را دنبال کن.",
+      "id": "ch-20",
+      "tasks": [
+        {
+          "en": "Accept the final sequence.",
+          "fa": "مرحلهٔ نهایی را قبول کن.",
+          "id": "a",
+          "title": "Final Request"
+        },
+        {
+          "en": "Reach the true conclusion.",
+          "fa": "به پایان واقعی داستان برس.",
+          "id": "b",
+          "title": "Ending E"
+        }
+      ],
+      "title": "The End of YoRHa — E"
+    }
+  ],
+  "sideQuests": [
+    {
+      "id": "sq-1",
+      "name": "Jean-Paul's Melancholy",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Jean-Paul's Melancholy» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Jean-Paul's Melancholy” during Route A."
+    },
+    {
+      "id": "sq-2",
+      "name": "Machine Examination 1",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Machine Examination 1» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Machine Examination 1” during Route A."
+    },
+    {
+      "id": "sq-3",
+      "name": "Machine Examination 2",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Machine Examination 2» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Machine Examination 2” during Route A."
+    },
+    {
+      "id": "sq-4",
+      "name": "Family Squabble",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Family Squabble» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Family Squabble” during Route A."
+    },
+    {
+      "id": "sq-5",
+      "name": "Animal Care",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Animal Care» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Animal Care” during Route A."
+    },
+    {
+      "id": "sq-6",
+      "name": "Turf War",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Turf War» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Turf War” during Route A."
+    },
+    {
+      "id": "sq-7",
+      "name": "Robo Dojo—White Belt",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Robo Dojo—White Belt» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Robo Dojo—White Belt” during Route A."
+    },
+    {
+      "id": "sq-8",
+      "name": "Robo Dojo—Brown Belt",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Robo Dojo—Brown Belt» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Robo Dojo—Brown Belt” during Route A."
+    },
+    {
+      "id": "sq-9",
+      "name": "Robo Dojo—Black Belt",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Robo Dojo—Black Belt» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Robo Dojo—Black Belt” during Route A."
+    },
+    {
+      "id": "sq-10",
+      "name": "Robo Dojo—Red and White Belt",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Robo Dojo—Red and White Belt» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Robo Dojo—Red and White Belt” during Route A."
+    },
+    {
+      "id": "sq-11",
+      "name": "Robo Dojo—Red Belt",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Robo Dojo—Red Belt» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Robo Dojo—Red Belt” during Route A."
+    },
+    {
+      "id": "sq-12",
+      "name": "Lost Girl",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Lost Girl» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Lost Girl” during Route A."
+    },
+    {
+      "id": "sq-13",
+      "name": "The Supply Trader's Request",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «The Supply Trader's Request» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “The Supply Trader's Request” during Route A."
+    },
+    {
+      "id": "sq-14",
+      "name": "The Manager's Request",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «The Manager's Request» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “The Manager's Request” during Route A."
+    },
+    {
+      "id": "sq-15",
+      "name": "Camp Development",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Camp Development» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Camp Development” during Route A."
+    },
+    {
+      "id": "sq-16",
+      "name": "Anemone's Past",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Anemone's Past» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Anemone's Past” during Route A."
+    },
+    {
+      "id": "sq-17",
+      "name": "Amnesia",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Amnesia» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Amnesia” during Route B."
+    },
+    {
+      "id": "sq-18",
+      "name": "Resistance Disappearance",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Resistance Disappearance» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Resistance Disappearance” during Route A."
+    },
+    {
+      "id": "sq-19",
+      "name": "Jackass's Research",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Jackass's Research» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Jackass's Research” during Route A."
+    },
+    {
+      "id": "sq-20",
+      "name": "Improving Communications",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Improving Communications» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Improving Communications” during Route A."
+    },
+    {
+      "id": "sq-21",
+      "name": "Investigating Communications",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Investigating Communications» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Investigating Communications” during Route A."
+    },
+    {
+      "id": "sq-22",
+      "name": "Terminal Repairs",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Terminal Repairs» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Terminal Repairs” during Route A."
+    },
+    {
+      "id": "sq-23",
+      "name": "Find a Present",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Find a Present» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Find a Present” during Route A."
+    },
+    {
+      "id": "sq-24",
+      "name": "Data Analysis Freak",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Data Analysis Freak» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Data Analysis Freak” during Route B."
+    },
+    {
+      "id": "sq-25",
+      "name": "Data Analysis Freak 2",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Data Analysis Freak 2» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Data Analysis Freak 2” during Route B."
+    },
+    {
+      "id": "sq-26",
+      "name": "Lord of the Valley",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Lord of the Valley» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Lord of the Valley” during Route A."
+    },
+    {
+      "id": "sq-27",
+      "name": "Vanquish the Bad Bot",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Vanquish the Bad Bot» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Vanquish the Bad Bot” during Route C/D."
+    },
+    {
+      "id": "sq-28",
+      "name": "Play with Us!",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Play with Us!» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Play with Us!” during Route C/D."
+    },
+    {
+      "id": "sq-29",
+      "name": "Storage Element",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Storage Element» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Storage Element” during Route C/D."
+    },
+    {
+      "id": "sq-30",
+      "name": "Half-wit Inventor",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Half-wit Inventor» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Half-wit Inventor” during Route A."
+    },
+    {
+      "id": "sq-31",
+      "name": "Idiot Savant",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Idiot Savant» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Idiot Savant” during Route B."
+    },
+    {
+      "id": "sq-32",
+      "name": "Game Dev Machine Lv.1",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Game Dev Machine Lv.1» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Game Dev Machine Lv.1” during Route B."
+    },
+    {
+      "id": "sq-33",
+      "name": "Game Dev Machine Lv.2",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Game Dev Machine Lv.2» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Game Dev Machine Lv.2” during Route B."
+    },
+    {
+      "id": "sq-34",
+      "name": "Game Dev Machine Lv.3",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Game Dev Machine Lv.3» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Game Dev Machine Lv.3” during Route B."
+    },
+    {
+      "id": "sq-35",
+      "name": "Speed Star",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Speed Star» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Speed Star” during Route A."
+    },
+    {
+      "id": "sq-36",
+      "name": "Emil's Memories",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Emil's Memories» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Emil's Memories” during Route A."
+    },
+    {
+      "id": "sq-37",
+      "name": "Photographs",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Photographs» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Photographs” during Route A."
+    },
+    {
+      "id": "sq-38",
+      "name": "11B's Memento",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «11B's Memento» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “11B's Memento” during Route A."
+    },
+    {
+      "id": "sq-39",
+      "name": "Treasure Hunt at the Castle",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Treasure Hunt at the Castle» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Treasure Hunt at the Castle” during Route A."
+    },
+    {
+      "id": "sq-40",
+      "name": "The Wandering Couple",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «The Wandering Couple» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “The Wandering Couple” during Route A."
+    },
+    {
+      "id": "sq-41",
+      "name": "Data on the Old World",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «Data on the Old World» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “Data on the Old World” during Route B."
+    },
+    {
+      "id": "sq-42",
+      "name": "Culinary Researcher",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Culinary Researcher» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Culinary Researcher” during Route A."
+    },
+    {
+      "id": "sq-43",
+      "name": "YoRHa Betrayers",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «YoRHa Betrayers» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “YoRHa Betrayers” during Route A."
+    },
+    {
+      "id": "sq-44",
+      "name": "Reconnaissance Squad",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Reconnaissance Squad» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Reconnaissance Squad” during Route C/D."
+    },
+    {
+      "id": "sq-45",
+      "name": "Devola's Request",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Devola's Request» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Devola's Request” during Route C/D."
+    },
+    {
+      "id": "sq-46",
+      "name": "Popola's Errand",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Popola's Errand» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Popola's Errand” during Route C/D."
+    },
+    {
+      "id": "sq-47",
+      "name": "The Twins' Request",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «The Twins' Request» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “The Twins' Request” during Route C/D."
+    },
+    {
+      "id": "sq-48",
+      "name": "Heritage of the Past",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Heritage of the Past» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Heritage of the Past” during Route A."
+    },
+    {
+      "id": "sq-49",
+      "name": "Retrieve the Confidential Intel",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Retrieve the Confidential Intel» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Retrieve the Confidential Intel” during Route A."
+    },
+    {
+      "id": "sq-50",
+      "name": "Sorting Trouble",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Sorting Trouble» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Sorting Trouble” during Route A."
+    },
+    {
+      "id": "sq-51",
+      "name": "Sorting Trouble 2",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Sorting Trouble 2» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Sorting Trouble 2” during Route C/D."
+    },
+    {
+      "id": "sq-52",
+      "name": "Sorting Trouble 3",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Sorting Trouble 3» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Sorting Trouble 3” during Route C/D."
+    },
+    {
+      "id": "sq-53",
+      "name": "Stamp Collecting",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Stamp Collecting» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Stamp Collecting” during Route A."
+    },
+    {
+      "id": "sq-54",
+      "name": "Parade Escort",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «Parade Escort» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “Parade Escort” during Route A."
+    },
+    {
+      "id": "sq-55",
+      "name": "Gathering Keepsakes",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Gathering Keepsakes» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Gathering Keepsakes” during Route C/D."
+    },
+    {
+      "id": "sq-56",
+      "name": "The Weapon Dealer's Request",
+      "route": "Route A",
+      "fa": "مأموریت فرعی «The Weapon Dealer's Request» را در Route A پیدا و کامل کن.",
+      "en": "Find and complete “The Weapon Dealer's Request” during Route A."
+    },
+    {
+      "id": "sq-57",
+      "name": "The Recluse",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «The Recluse» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “The Recluse” during Route B."
+    },
+    {
+      "id": "sq-58",
+      "name": "The Recluse Stays Home",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «The Recluse Stays Home» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “The Recluse Stays Home” during Route B."
+    },
+    {
+      "id": "sq-59",
+      "name": "The Permanent Recluse",
+      "route": "Route B",
+      "fa": "مأموریت فرعی «The Permanent Recluse» را در Route B پیدا و کامل کن.",
+      "en": "Find and complete “The Permanent Recluse” during Route B."
+    },
+    {
+      "id": "sq-60",
+      "name": "Emil's Determination",
+      "route": "Route C/D",
+      "fa": "مأموریت فرعی «Emil's Determination» را در Route C/D پیدا و کامل کن.",
+      "en": "Find and complete “Emil's Determination” during Route C/D."
+    }
+  ],
+  "weapons": [
+    {
+      "id": "wp-1",
+      "name": "Bare Fists",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-2",
+      "name": "Virtuous Contract",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-3",
+      "name": "Cruel Oath",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-4",
+      "name": "YoRHa-issue Blade",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-5",
+      "name": "Type-3 Sword",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-6",
+      "name": "Type-40 Sword",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-7",
+      "name": "Ancient Overlord",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-8",
+      "name": "Phoenix Dagger",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-9",
+      "name": "Machine Sword",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-10",
+      "name": "Iron Pipe",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-11",
+      "name": "Cypress Stick",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-12",
+      "name": "Engine Blade",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-13",
+      "name": "Beastbane",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-14",
+      "name": "Faith",
+      "group": "Small Sword",
+      "fa": "این سلاح از گروه Small Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Small Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-15",
+      "name": "Virtuous Treaty",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-16",
+      "name": "Cruel Blood Oath",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-17",
+      "name": "Machine Axe",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-18",
+      "name": "Type-3 Blade",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-19",
+      "name": "Type-40 Blade",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-20",
+      "name": "Beastlord",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-21",
+      "name": "Phoenix Sword",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-22",
+      "name": "Iron Will",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-23",
+      "name": "Fang of the Twins",
+      "group": "Large Sword",
+      "fa": "این سلاح از گروه Large Sword را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Large Sword and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-24",
+      "name": "Virtuous Dignity",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-25",
+      "name": "Cruel Arrogance",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-26",
+      "name": "Machine Spear",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-27",
+      "name": "Type-3 Lance",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-28",
+      "name": "Type-40 Lance",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-29",
+      "name": "Beastcurse",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-30",
+      "name": "Phoenix Lance",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-31",
+      "name": "Spear of the Usurper",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-32",
+      "name": "Dragoon Lance",
+      "group": "Spear",
+      "fa": "این سلاح از گروه Spear را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Spear and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-33",
+      "name": "Virtuous Grief",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-34",
+      "name": "Cruel Lament",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-35",
+      "name": "Machine Heads",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-36",
+      "name": "Type-3 Fists",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-37",
+      "name": "Type-40 Fists",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-38",
+      "name": "Angel's Folly",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-39",
+      "name": "Demon's Cry",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    },
+    {
+      "id": "wp-40",
+      "name": "Emil Heads",
+      "group": "Combat Bracer",
+      "fa": "این سلاح از گروه Combat Bracer را پیدا کن و در صورت تمایل تا Level 4 ارتقا بده.",
+      "en": "Collect this Combat Bracer and optionally upgrade it to Level 4."
+    }
+  ],
+  "pods": [
+    {
+      "id": "pod-1",
+      "name": "Pod A",
+      "group": "Support Unit",
+      "fa": "واحد پشتیبان را پیدا و ارتقا بده.",
+      "en": "Find and upgrade this support unit."
+    },
+    {
+      "id": "pod-2",
+      "name": "Pod B",
+      "group": "Support Unit",
+      "fa": "واحد پشتیبان را پیدا و ارتقا بده.",
+      "en": "Find and upgrade this support unit."
+    },
+    {
+      "id": "pod-3",
+      "name": "Pod C",
+      "group": "Support Unit",
+      "fa": "واحد پشتیبان را پیدا و ارتقا بده.",
+      "en": "Find and upgrade this support unit."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pg-1",
+      "name": "R010: Laser",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-2",
+      "name": "R020: Mirage",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-3",
+      "name": "R030: Hammer",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-4",
+      "name": "R040: Blade",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-5",
+      "name": "R050: Spear",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-6",
+      "name": "A060: P Shield",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-7",
+      "name": "R070: M Shield",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-8",
+      "name": "A080: Wave",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-9",
+      "name": "A090: Wire",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-10",
+      "name": "A100: Decoy",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-11",
+      "name": "A110: Slow",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-12",
+      "name": "A120: Repair",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-13",
+      "name": "A130: Bomb",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-14",
+      "name": "A140: Gravity",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-15",
+      "name": "A150: Volt",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-16",
+      "name": "A160: Missile",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    },
+    {
+      "id": "pg-17",
+      "name": "A170: Scanner",
+      "group": "Pod Program",
+      "fa": "این Pod Program را به دست بیاور و عملکردش را آزمایش کن.",
+      "en": "Acquire this Pod Program and test its function."
+    }
+  ],
+  "endings": [
+    {
+      "id": "end-A",
+      "name": "Ending A — flowers for m[A]chines",
+      "group": "Story Ending",
+      "spoiler": false,
+      "fa": "یکی از پنج پایان اصلی؛ پس از رسیدن به آن علامت بزن.",
+      "en": "One of the five main endings; check it after reaching it."
+    },
+    {
+      "id": "end-B",
+      "name": "Ending B — or not to [B]e",
+      "group": "Story Ending",
+      "spoiler": true,
+      "fa": "یکی از پنج پایان اصلی؛ پس از رسیدن به آن علامت بزن.",
+      "en": "One of the five main endings; check it after reaching it."
+    },
+    {
+      "id": "end-C",
+      "name": "Ending C — meaningless [C]ode",
+      "group": "Story Ending",
+      "spoiler": true,
+      "fa": "یکی از پنج پایان اصلی؛ پس از رسیدن به آن علامت بزن.",
+      "en": "One of the five main endings; check it after reaching it."
+    },
+    {
+      "id": "end-D",
+      "name": "Ending D — chil[D]hood's end",
+      "group": "Story Ending",
+      "spoiler": true,
+      "fa": "یکی از پنج پایان اصلی؛ پس از رسیدن به آن علامت بزن.",
+      "en": "One of the five main endings; check it after reaching it."
+    },
+    {
+      "id": "end-E",
+      "name": "Ending E — the [E]nd of YoRHa",
+      "group": "Story Ending",
+      "spoiler": true,
+      "fa": "یکی از پنج پایان اصلی؛ پس از رسیدن به آن علامت بزن.",
+      "en": "One of the five main endings; check it after reaching it."
+    },
+    {
+      "id": "end-F",
+      "name": "Ending F — mission [F]ailed",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-G",
+      "name": "Ending G — hun[G]ry for knowledge",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-H",
+      "name": "Ending H — a mountain too [H]igh",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-I",
+      "name": "Ending I — no [I] in team",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-J",
+      "name": "Ending J — bad [J]udgment",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-K",
+      "name": "Ending K — aji wo [K]utta",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-L",
+      "name": "Ending L — [L]one wolf",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-M",
+      "name": "Ending M — break ti[M]e",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-N",
+      "name": "Ending N — [N]o man's village",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-O",
+      "name": "Ending O — just y[O]u and me",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-P",
+      "name": "Ending P — corru[P]tion",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-Q",
+      "name": "Ending Q — [Q]uestionable actions",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-R",
+      "name": "Ending R — mave[R]ick",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-S",
+      "name": "Ending S — city e[S]cape",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-T",
+      "name": "Ending T — fa[T]al error",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-U",
+      "name": "Ending U — deb[U]nked",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-V",
+      "name": "Ending V — reckless bra[V]ery",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-W",
+      "name": "Ending W — broken [W]ings",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-X",
+      "name": "Ending X — time to rela[X]",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-Y",
+      "name": "Ending Y — head[Y] battle",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    },
+    {
+      "id": "end-Z",
+      "name": "Ending Z — over[Z]ealous",
+      "group": "Optional Ending",
+      "spoiler": true,
+      "fa": "یک پایان اختیاری؛ بهتر است شرط آن را پس از داستان اصلی بررسی کنی.",
+      "en": "An optional ending; consider its condition after the main story."
+    }
+  ]
+}
+
