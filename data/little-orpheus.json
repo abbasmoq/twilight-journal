@@ -1,0 +1,29 @@
+{
+  "chapters": [
+    {"title":"Comrades, To the Centre!","fa":"اپیزود اول؛ فقط جزئیات همین بخش پس از باز شدن نمایش داده می‌شود.","en":"Episode one. Only this episode's notes are revealed when it unlocks.","tasks":[{"title":"Begin the descent","fa":"اپیزود را شروع کن و مسیر اصلی را دنبال کن.","en":"Start the episode and follow the main route."},{"title":"Finish Episode 1","fa":"اپیزود اول را کامل کن.","en":"Complete Episode 1."}]},
+    {"title":"The Enslaving of the Menk","fa":"اپیزود دوم؛ اطلاعات آینده تا رسیدن به این بخش مخفی می‌ماند.","en":"Episode two; future details remain hidden until you reach it.","tasks":[{"title":"Continue Ivan's account","fa":"ماجراجویی را در اپیزود دوم ادامه بده.","en":"Continue Ivan's account in Episode 2."},{"title":"Finish Episode 2","fa":"اپیزود دوم را کامل کن.","en":"Complete Episode 2."}]},
+    {"title":"Of Whales and Worms","fa":"اپیزود سوم؛ بدون توضیح داستانی اضافه برای جلوگیری از اسپویل.","en":"Episode three, with extra story details withheld to avoid spoilers.","tasks":[{"title":"Explore the episode","fa":"مسیر اصلی اپیزود را پیش ببر.","en":"Progress through the episode's main route."},{"title":"Finish Episode 3","fa":"اپیزود سوم را کامل کن.","en":"Complete Episode 3."}]},
+    {"title":"The Battle of Sannikov Land","fa":"اپیزود چهارم؛ جزئیات فقط هنگام رسیدن به این بخش آشکار می‌شود.","en":"Episode four; details are only exposed once this section is reached.","tasks":[{"title":"Explore the episode","fa":"اپیزود چهارم را پیش ببر.","en":"Progress through Episode 4."},{"title":"Finish Episode 4","fa":"اپیزود چهارم را کامل کن.","en":"Complete Episode 4."}]},
+    {"title":"Beneath the Waves of Molyobka","fa":"اپیزود پنجم؛ دفترچه عمداً از شرح اتفاقات آینده خودداری می‌کند.","en":"Episode five; the journal deliberately withholds future events.","tasks":[{"title":"Explore the episode","fa":"مسیر اصلی را ادامه بده.","en":"Continue along the main route."},{"title":"Finish Episode 5","fa":"اپیزود پنجم را کامل کن.","en":"Complete Episode 5."}]},
+    {"title":"The Bells of Lemuria","fa":"اپیزود ششم؛ اطلاعات داستانی آینده مخفی است.","en":"Episode six; future story information stays classified.","tasks":[{"title":"Explore the episode","fa":"اپیزود ششم را پیش ببر.","en":"Progress through Episode 6."},{"title":"Finish Episode 6","fa":"اپیزود ششم را کامل کن.","en":"Complete Episode 6."}]},
+    {"title":"Metagalactivus Interiorus","fa":"اپیزود هفتم؛ فقط نام اپیزود پس از باز شدن نمایش داده می‌شود.","en":"Episode seven; only the unlocked episode title is shown here.","tasks":[{"title":"Explore the episode","fa":"اپیزود هفتم را پیش ببر.","en":"Progress through Episode 7."},{"title":"Finish Episode 7","fa":"اپیزود هفتم را کامل کن.","en":"Complete Episode 7."}]},
+    {"title":"The Pillars of the World","fa":"اپیزود هشتم؛ بدون لو دادن رویدادهای داستانی.","en":"Episode eight, with story events kept spoiler-free.","tasks":[{"title":"Explore the episode","fa":"اپیزود هشتم را پیش ببر.","en":"Progress through Episode 8."},{"title":"Finish Episode 8","fa":"اپیزود هشتم را کامل کن.","en":"Complete Episode 8."}]},
+    {"title":"A Rush of Onion to the Head","fa":"اپیزود نهم و محتوای اضافه؛ جزئیات تا باز شدن آن مخفی می‌ماند.","en":"The bonus ninth episode; details remain hidden until unlocked.","tasks":[{"title":"Explore the bonus episode","fa":"اپیزود نهم را پیش ببر.","en":"Progress through the bonus episode."},{"title":"Finish Episode 9","fa":"اپیزود نهم را کامل کن.","en":"Complete Episode 9."}]}
+  ],
+  "orbs": [
+    {"id":"orb-e1","name":"Episode 1 Orbs","count":9,"episode":1,"fa":"۹ گوی در اپیزود ۱؛ در Lost Recordings قابل جمع‌آوری‌اند.","en":"9 orbs in Episode 1, collectible in Lost Recordings."},
+    {"id":"orb-e2","name":"Episode 2 Orbs","count":10,"episode":2,"fa":"۱۰ گوی در اپیزود ۲.","en":"10 orbs in Episode 2."},
+    {"id":"orb-e3","name":"Episode 3 Orbs","count":9,"episode":3,"fa":"۹ گوی در اپیزود ۳.","en":"9 orbs in Episode 3."},
+    {"id":"orb-e4","name":"Episode 4 Orbs","count":7,"episode":4,"fa":"۷ گوی در اپیزود ۴.","en":"7 orbs in Episode 4."},
+    {"id":"orb-e5","name":"Episode 5 Orbs","count":7,"episode":5,"fa":"۷ گوی در اپیزود ۵.","en":"7 orbs in Episode 5."},
+    {"id":"orb-e6","name":"Episode 6 Orbs","count":7,"episode":6,"fa":"۷ گوی در اپیزود ۶.","en":"7 orbs in Episode 6."},
+    {"id":"orb-e7","name":"Episode 7 Orbs","count":6,"episode":7,"fa":"۶ گوی در اپیزود ۷.","en":"6 orbs in Episode 7."},
+    {"id":"orb-e8","name":"Episode 8 Orbs","count":5,"episode":8,"fa":"۵ گوی در اپیزود ۸.","en":"5 orbs in Episode 8."},
+    {"id":"orb-e9","name":"Episode 9 Orbs","count":6,"episode":9,"fa":"۶ گوی در اپیزود ۹.","en":"6 orbs in Episode 9."}
+  ],
+  "extras": [
+    {"id":"lost-recordings","name":"Lost Recordings","episode":1,"fa":"حالت جمع‌آوری گوی‌ها که پس از پیشروی اولیه باز می‌شود.","en":"The replay mode used for collecting orbs after initial progress."},
+    {"id":"costumes","name":"Costumes","episode":1,"fa":"لباس‌های قابل باز شدن را اینجا دنبال کن.","en":"Track unlocked costumes here."},
+    {"id":"concept-art","name":"Concept Art","episode":1,"fa":"کانسپت‌آرت‌های بازشده با جمع‌آوری را ثبت کن.","en":"Track concept art unlocked through collecting."}
+  ]
+}
