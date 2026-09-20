@@ -12,6 +12,8 @@ A lightweight, bilingual, spoiler-conscious game progress tracker.
 
 - The Legend of Zelda: Twilight Princess HD
 - The Legend of Zelda: The Wind Waker HD
+- NieR:Automata
+- Little Orpheus
 
 Open the game selector from the controller button at the top of either journal.
 
@@ -38,4 +40,4 @@ python3 -m http.server 8080
 
 Then open `http://127.0.0.1:8080`.
 
-> This is an unofficial fan-made project and is not affiliated with Nintendo.
+> This is an unofficial fan-made project and is not affiliated with Nintendo, Square Enix, PlatinumGames, The Chinese Room, Secret Mode, or their respective publishers and partners.
