@@ -13,17 +13,17 @@
     .mark{font-size:46px;filter:drop-shadow(0 0 18px rgba(235,202,107,.38));animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-8px)}}
     .eyebrow{margin-top:15px;color:#6fd5ab;letter-spacing:4px;font-size:11px}h1{margin:10px 0;font:clamp(36px,9vw,66px) Georgia,serif;font-weight:normal}
     .lead{max-width:650px;margin:0 auto 36px;color:var(--muted);line-height:1.9}.games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;text-align:left}
-    .game{position:relative;min-height:330px;padding:25px;border:1px solid var(--border);border-radius:27px;overflow:hidden;color:inherit;text-decoration:none;background:var(--panel);box-shadow:0 24px 70px rgba(0,0,0,.28);transition:.3s}
+    .game{position:relative;min-height:475px;padding:25px 25px 70px;border:1px solid var(--border);border-radius:27px;overflow:hidden;color:inherit;text-decoration:none;background:var(--panel);box-shadow:0 24px 70px rgba(0,0,0,.28);transition:.3s}
     .game:hover{transform:translateY(-6px);border-color:var(--gold)}.game::before{content:"";position:absolute;inset:0;z-index:-1;opacity:.5}
     .twilight::before{background:radial-gradient(circle at 80% 15%,#486242,transparent 48%),linear-gradient(145deg,#171d25,#090b10)}
     .wind::before{background:radial-gradient(circle at 75% 8%,#2f7794,transparent 45%),linear-gradient(145deg,#102d40,#07121d)}
     .nier::before{background:radial-gradient(circle at 75% 8%,#d7d1b9,transparent 42%),linear-gradient(145deg,#73756d,#202320)}.nier .icon{color:#ddd7c2}
     .orpheus::before{background:radial-gradient(circle at 78% 10%,#d95b3f,transparent 38%),radial-gradient(circle at 20% 75%,#51466e,transparent 42%),linear-gradient(145deg,#382026,#15131a)}.orpheus .icon{color:#ffca68}
     .neva::before{background:radial-gradient(circle at 78% 12%,#c78178,transparent 39%),radial-gradient(circle at 20% 78%,#698879,transparent 43%),linear-gradient(145deg,#3a3433,#17201e)}.neva .icon{color:#e8c9b5}
-    .icon{font-size:55px}.game small{display:block;margin-top:24px;color:#6fd5ab;letter-spacing:2px}.game h2{margin:7px 0 12px;color:var(--gold);font:30px Georgia,serif}.game p{margin:0;color:var(--muted);line-height:1.8;font-size:13px}
+    .icon{font-size:55px}.game small{display:block;margin-top:24px;color:#6fd5ab;letter-spacing:2px}.game h2{margin:7px 0 12px;color:var(--gold);font:30px Georgia,serif}.story-label{display:block;margin:16px 0 7px;color:var(--gold);font-size:11px;font-weight:bold;letter-spacing:.3px}.game p{margin:0;color:var(--muted);line-height:1.75;font-size:12px}.story-fa{direction:rtl;text-align:right}.story-en{direction:ltr;text-align:left;margin-top:9px!important;opacity:.82}.journal-features{margin-top:13px!important;padding-top:11px;border-top:1px solid var(--border);direction:rtl;text-align:right}.journal-features b{color:#6fd5ab}
     .open{position:absolute;bottom:23px;inset-inline-end:23px;padding:10px 15px;border-radius:999px;color:#17140b;background:linear-gradient(135deg,#f4d980,#b99338);font-weight:bold;font-size:12px}
     .note{margin-top:28px;color:var(--muted);font-size:12px;line-height:1.8}.fa{direction:rtl}
-    @media(max-width:650px){.wrap{padding-top:38px}.games{grid-template-columns:1fr}.game{min-height:290px}}
+    @media(max-width:650px){.wrap{padding-top:38px}.games{grid-template-columns:1fr}.game{min-height:450px}}
   </style>
 </head>
 <body>
@@ -37,31 +37,46 @@
       <a class="game twilight" href="index.html">
         <div class="icon">🌙</div><small>WII U · CEMU</small>
         <h2>Twilight Princess HD</h2>
-        <p class="fa">سفر میان نور و تاریکی؛ مأموریت‌ها، تجهیزات و خاطراتت را ثبت کن.</p>
+        <span class="story-label">خلاصه داستان · STORY OVERVIEW</span>
+        <p class="story-fa">لینک، جوانی آرام از روستای Ordon، با گسترش نیرویی مرموز به نام Twilight وارد نبردی برای نجات Hyrule می‌شود. او در قلمرو تاریکی به گرگ تبدیل می‌شود و همراه Midna باید نور را به سرزمین بازگرداند.</p>
+        <p class="story-en">A quiet ranch hand named Link is drawn into a battle to save Hyrule from the spreading Twilight. Transformed into a wolf in the realm of shadow, he joins Midna to restore the light.</p>
+        <p class="journal-features"><b>داخل دفترچه:</b> مراحل اصلی، مأموریت‌ها، قلب‌ها، تجهیزات و یادداشت‌ها.</p>
         <span class="open">Open Journal</span>
       </a>
       <a class="game wind" href="wind-waker.html">
         <div class="icon">⛵</div><small>WII U · CEMU</small>
         <h2>The Wind Waker HD</h2>
-        <p class="fa">بادبان بکش و سفر در دریای بزرگ، گنج‌ها و جزیره‌ها را دنبال کن.</p>
+        <span class="story-label">خلاصه داستان · STORY OVERVIEW</span>
+        <p class="story-fa">پس از ربوده‌شدن خواهر لینک به‌دست پرنده‌ای غول‌پیکر، او خانه‌اش را ترک می‌کند و راهی دریای بزرگ می‌شود. لینک با یک قایق سخنگو میان جزیره‌ها سفر می‌کند تا خواهرش را نجات دهد و راز تهدیدی قدیمی را کشف کند.</p>
+        <p class="story-en">When Link’s sister is taken by a giant bird, he leaves home and sails across the Great Sea. Guided by a talking boat, he explores distant islands to rescue her and uncover an ancient threat.</p>
+        <p class="journal-features"><b>داخل دفترچه:</b> مراحل اصلی، جزیره‌ها، Side Questها، گنج‌ها و آهنگ‌ها.</p>
         <span class="open">Open Journal</span>
       </a>
       <a class="game nier" href="nier-automata.html">
         <div class="icon">◉</div><small>PC · PLAYSTATION · XBOX · SWITCH</small>
         <h2>NieR:Automata</h2>
-        <p class="fa">پروندهٔ عملیات YoRHa؛ مسیرهای اصلی، Side Questها، سلاح‌ها، Podها و Endingها را ثبت کن.</p>
+        <span class="story-label">خلاصه داستان · STORY OVERVIEW</span>
+        <p class="story-fa">در آینده‌ای دور، انسان‌ها پس از حملهٔ بیگانگان و ماشین‌هایشان به ماه پناه برده‌اند. اندرویدهای YoRHa، یعنی 2B و 9S، برای بازپس‌گیری زمین اعزام می‌شوند؛ اما مأموریت آن‌ها به‌تدریج حقیقت جنگ را زیر سؤال می‌برد.</p>
+        <p class="story-en">In the distant future, humanity has fled to the Moon after an invasion by alien machines. YoRHa androids 2B and 9S are sent to reclaim Earth, but their mission gradually challenges everything they know about the war.</p>
+        <p class="journal-features"><b>داخل دفترچه:</b> Routeها، Side Questها، سلاح‌ها، Podها و Endingها.</p>
         <span class="open">Open Journal</span>
       </a>
       <a class="game orpheus" href="little-orpheus.html">
         <div class="icon">☄</div><small>PC · PLAYSTATION · XBOX · SWITCH</small>
         <h2>Little Orpheus</h2>
-        <p class="fa">سفر تکنیکالر ایوان به اعماق زمین؛ اپیزودها، گوی‌ها، Lost Recordings و یادداشت‌ها را بدون اسپویل جلو ببر.</p>
+        <span class="story-label">خلاصه داستان · STORY OVERVIEW</span>
+        <p class="story-fa">در سال ۱۹۶۲، فضانورد شوروی «ایوان ایوانوویچ» با کپسول Little Orpheus به درون آتشفشانی خاموش فرستاده می‌شود و ناپدید می‌گردد. سه سال بعد بدون بمب اتمی کپسول بازمی‌گردد و ماجراهای عجیبش در دنیاهای زیرزمینی را برای یک ژنرال بازگو می‌کند.</p>
+        <p class="story-en">In 1962, Soviet cosmonaut Ivan Ivanovich is sent into an extinct volcano aboard Little Orpheus—and vanishes. Three years later he returns without its atomic bomb, recounting an unbelievable journey through hidden worlds beneath the Earth.</p>
+        <p class="journal-features"><b>داخل دفترچه:</b> اپیزودها، Orbs، Lost Recordings، لباس‌ها و یادداشت‌ها.</p>
         <span class="open">Open Journal</span>
       </a>
       <a class="game neva" href="neva.html">
         <div class="icon">◌</div><small>PC · PLAYSTATION · XBOX · SWITCH</small>
         <h2>Neva</h2>
-        <p class="fa">سفر آلبا و نِوا در فصل‌های یک جهان رو به زوال؛ پیشرفت، گل‌ها و لحظه‌های مهم را بدون اسپویل ثبت کن.</p>
+        <span class="story-label">خلاصه داستان · STORY OVERVIEW</span>
+        <p class="story-fa">پس از رویدادی دردناک، آلبا سرپرستی توله‌گرگی به نام نِوا را بر عهده می‌گیرد. آن‌ها در فصل‌های گوناگون از جهانی زیبا اما رو به زوال عبور می‌کنند و پیوندشان در برابر موجودات تاریک و خطرهای طبیعت عمیق‌تر می‌شود.</p>
+        <p class="story-en">After a traumatic encounter, Alba becomes the guardian of a wolf cub named Neva. Together they cross a beautiful, decaying world through changing seasons as their bond grows against darkness and danger.</p>
+        <p class="journal-features"><b>داخل دفترچه:</b> فصل‌ها، گل‌های مخفی، Achievements، جلسات و یادداشت‌ها.</p>
         <span class="open">Open Journal</span>
       </a>
     </section>
