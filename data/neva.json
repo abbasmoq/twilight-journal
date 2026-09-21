@@ -1,0 +1,32 @@
+{
+  "chapters": [
+    {"title":"Summer — Part I","fa":"آغاز سفر؛ جزئیات آینده تا رسیدن به هر بخش مخفی می‌ماند.","en":"The journey begins; future details stay hidden until each part unlocks.","tasks":[{"title":"Begin Summer","fa":"مسیر اصلی بخش اول تابستان را شروع کن.","en":"Begin the first part of Summer."},{"title":"Finish Summer — Part I","fa":"بخش اول تابستان را کامل کن.","en":"Complete Summer — Part I."}]},
+    {"title":"Summer — Part II","fa":"ادامهٔ فصل تابستان؛ دفترچه از شرح اتفاقات داستانی جلوتر خودداری می‌کند.","en":"Continue through Summer; later story events remain withheld.","tasks":[{"title":"Continue the journey","fa":"مسیر اصلی را ادامه بده.","en":"Continue along the main route."},{"title":"Finish Summer — Part II","fa":"بخش دوم تابستان را کامل کن.","en":"Complete Summer — Part II."}]},
+    {"title":"Fall — Part I","fa":"آغاز پاییز؛ فقط اطلاعات همین بخش پس از باز شدن نمایش داده می‌شود.","en":"Fall begins; only this unlocked part is shown.","tasks":[{"title":"Enter Fall","fa":"بخش اول پاییز را شروع کن.","en":"Begin Fall — Part I."},{"title":"Finish Fall — Part I","fa":"بخش اول پاییز را کامل کن.","en":"Complete Fall — Part I."}]},
+    {"title":"Fall — Part II","fa":"بخش دوم پاییز؛ جزئیات داستانی آینده پنهان می‌مانند.","en":"Fall continues; future story details stay classified.","tasks":[{"title":"Continue through Fall","fa":"بخش دوم پاییز را پیش ببر.","en":"Progress through Fall — Part II."},{"title":"Finish Fall — Part II","fa":"بخش دوم پاییز را کامل کن.","en":"Complete Fall — Part II."}]},
+    {"title":"Fall — Part III","fa":"بخش پایانی پاییز؛ بدون لو دادن اتفاقات بخش‌های بعدی.","en":"The final Fall segment, with later events kept spoiler-free.","tasks":[{"title":"Continue through Fall","fa":"بخش سوم پاییز را پیش ببر.","en":"Progress through Fall — Part III."},{"title":"Finish Fall — Part III","fa":"بخش سوم پاییز را کامل کن.","en":"Complete Fall — Part III."}]},
+    {"title":"Winter — Part I","fa":"آغاز زمستان؛ مسیرها و چالش‌های جدید فقط پس از رسیدن به این بخش آشکار می‌شوند.","en":"Winter begins; its new routes and challenges are revealed only when unlocked.","tasks":[{"title":"Enter Winter","fa":"بخش اول زمستان را شروع کن.","en":"Begin Winter — Part I."},{"title":"Finish Winter — Part I","fa":"بخش اول زمستان را کامل کن.","en":"Complete Winter — Part I."}]},
+    {"title":"Winter — Part II","fa":"ادامهٔ زمستان؛ دفترچه همچنان آینده را مخفی نگه می‌دارد.","en":"Continue through Winter while future events remain hidden.","tasks":[{"title":"Continue through Winter","fa":"بخش دوم زمستان را پیش ببر.","en":"Progress through Winter — Part II."},{"title":"Finish Winter — Part II","fa":"بخش دوم زمستان را کامل کن.","en":"Complete Winter — Part II."}]},
+    {"title":"Spring","fa":"فصل پایانی؛ جزئیات این بخش فقط بعد از باز شدن نمایش داده می‌شود.","en":"The final season; its details appear only once unlocked.","tasks":[{"title":"Enter Spring","fa":"فصل بهار را شروع کن.","en":"Begin Spring."},{"title":"Finish Spring","fa":"فصل بهار را کامل کن.","en":"Complete Spring."}]}
+  ],
+  "flowers": [
+    {"id":"flowers-summer-1","name":"Summer — Part I Flowers","count":2,"part":1,"fa":"۲ گل در بخش اول تابستان.","en":"2 flowers in Summer — Part I."},
+    {"id":"flowers-summer-2","name":"Summer — Part II Flowers","count":3,"part":2,"fa":"۳ گل در بخش دوم تابستان.","en":"3 flowers in Summer — Part II."},
+    {"id":"flowers-fall-1","name":"Fall — Part I Flowers","count":4,"part":3,"fa":"۴ گل در بخش اول پاییز.","en":"4 flowers in Fall — Part I."},
+    {"id":"flowers-fall-2","name":"Fall — Part II Flowers","count":2,"part":4,"fa":"۲ گل در بخش دوم پاییز.","en":"2 flowers in Fall — Part II."},
+    {"id":"flowers-fall-3","name":"Fall — Part III Flowers","count":4,"part":5,"fa":"۴ گل در بخش سوم پاییز.","en":"4 flowers in Fall — Part III."},
+    {"id":"flowers-winter-1","name":"Winter — Part I Flowers","count":8,"part":6,"fa":"۸ گل در بخش اول زمستان.","en":"8 flowers in Winter — Part I."},
+    {"id":"flowers-winter-2","name":"Winter — Part II Flowers","count":5,"part":7,"fa":"۵ گل در بخش دوم زمستان.","en":"5 flowers in Winter — Part II."},
+    {"id":"flowers-spring","name":"Spring Flower","count":1,"part":8,"fa":"۱ گل در فصل بهار. مجموع کل بازی ۲۹ گل است.","en":"1 flower in Spring, bringing the game total to 29."}
+  ],
+  "extras": [
+    {"id":"provide","name":"Provide","part":1,"fa":"لحظهٔ اختیاری مربوط به مراقبت از نِوا را ثبت کن.","en":"Track the optional care-related moment with Neva."},
+    {"id":"wily","name":"Wily","part":2,"fa":"چالش اختیاری مرتبط با یکی از رویارویی‌های تابستان.","en":"An optional challenge tied to one of Summer's encounters."},
+    {"id":"mentoring","name":"Mentoring","part":3,"fa":"لحظه‌های هدایت و آرام‌کردن نِوا را از دست نده.","en":"Track the moments where Alba guides and calms Neva."},
+    {"id":"empathy","name":"Empathy","part":4,"fa":"یک فعالیت اختیاری مرتبط با موجودات آلودهٔ این بخش.","en":"An optional activity involving corrupted creatures in this part."},
+    {"id":"comfort","name":"Comfort","part":5,"fa":"چالش اختیاری ویژهٔ بخش سوم پاییز.","en":"An optional challenge unique to Fall — Part III."},
+    {"id":"curiosity","name":"Curiosity","part":6,"fa":"پرنده‌های مخفی بخش اول زمستان را دنبال کن.","en":"Track the hidden birds found in Winter — Part I."},
+    {"id":"longing","name":"Longing","part":7,"fa":"یک لحظهٔ اختیاری احساسی در بخش دوم زمستان.","en":"An optional emotional moment in Winter — Part II."},
+    {"id":"memories","name":"Memories","part":8,"fa":"لحظهٔ اختیاری مربوط به خاطره در فصل بهار.","en":"An optional memory-related moment in Spring."}
+  ]
+}
